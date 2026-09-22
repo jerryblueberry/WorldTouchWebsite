@@ -1,0 +1,374 @@
+[
+  {
+    "slug": "everest-base-camp",
+    "title": "Everest Base Camp Trek",
+    "region": "Everest",
+    "duration": "14 days",
+    "durationDays": 14,
+    "maxAltitude": "5,364 m",
+    "difficulty": "Challenging",
+    "bestSeason": "Mar–May, Sep–Nov",
+    "groupSize": "2–12",
+    "startPoint": "Lukla",
+    "priceFrom": 1490,
+    "currency": "USD",
+    "featured": true,
+    "summary": "The classic Khumbu trail to Everest Base Camp, paced for acclimatization with Sherpa-led guiding from Kathmandu.",
+    "overview": [
+      "Everest Base Camp is the journey most travelers picture when they think of Nepal: prayer flags, stone villages, and a trail that climbs from rhododendron forest into the high Khumbu. World Touch runs this trek from our Kathmandu office, so flights, permits, and lodge bookings are handled before you ever reach Lukla.",
+      "Days are built around altitude, not speed. You walk with a licensed guide, sleep in teahouses, and keep rest days at Namche and Dingboche. The reward is Kala Patthar at sunrise and Base Camp itself — a place that still feels earned.",
+      "This departure suits fit walkers who are new to high altitude and want a trusted local team rather than a last-minute package."
+    ],
+    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Himalayan peaks above a high valley on the Everest trail",
+    "itinerary": [
+      { "day": "Day 1", "title": "Arrive Kathmandu", "detail": "Airport pickup, trek briefing, and gear check in Thamel." },
+      { "day": "Day 2", "title": "Fly to Lukla, walk to Phakding", "detail": "Scenic mountain flight and an easy first walk beside the Dudh Koshi." },
+      { "day": "Day 3–4", "title": "Namche Bazaar & acclimatization", "detail": "Climb to Namche and a rest day with a hike toward Everest View Hotel." },
+      { "day": "Day 5–8", "title": "Tengboche to Dingboche", "detail": "Monastery visit, gradual ascent, and a second acclimatization day." },
+      { "day": "Day 9–11", "title": "Lobuche, Base Camp & Kala Patthar", "detail": "Reach Base Camp and an early Kala Patthar sunrise before descending." },
+      { "day": "Day 12–14", "title": "Return to Lukla & Kathmandu", "detail": "Walk out, fly to Kathmandu, and a farewell evening." }
+    ],
+    "includes": ["Kathmandu airport transfers", "Domestic flights to and from Lukla", "Licensed guide and porter support", "Teahouse lodging and breakfasts", "Sagarmatha permit and TIMS"],
+    "excludes": ["Nepal visa", "Travel insurance", "Lunches and dinners on the trail", "Personal gear and tips"],
+    "permits": ["Sagarmatha National Park permit", "Khumbu Pasang Lhamu rural municipality permit", "TIMS card"],
+    "packing": ["Broken-in boots", "Sleeping bag rated to −10°C", "Down jacket", "Trekking poles", "Sunglasses and sunscreen"],
+    "faqs": [
+      { "question": "How fit do I need to be for Everest Base Camp?", "answer": "You should be comfortable walking 5–7 hours a day on uneven trails. Prior high-altitude experience is helpful but not required if you follow the acclimatization plan." },
+      { "question": "What is the best season?", "answer": "Spring (March–May) and autumn (September–November) offer the most stable weather and clear mountain views." }
+    ],
+    "metaTitle": "Everest Base Camp Trek Cost & Itinerary",
+    "metaDescription": "14-day Everest Base Camp trek from Kathmandu with licensed guides, teahouses, and permits arranged by World Touch Tour and Travels."
+  },
+  {
+    "slug": "annapurna-circuit",
+    "title": "Annapurna Circuit Trek",
+    "region": "Annapurna",
+    "duration": "16 days",
+    "durationDays": 16,
+    "maxAltitude": "5,416 m",
+    "difficulty": "Challenging",
+    "bestSeason": "Mar–May, Oct–Nov",
+    "groupSize": "2–12",
+    "startPoint": "Besisahar / Jagat",
+    "priceFrom": 1290,
+    "currency": "USD",
+    "featured": true,
+    "summary": "A full circuit of the Annapurna massif, crossing Thorong La and descending into the Kali Gandaki.",
+    "overview": [
+      "The Annapurna Circuit is Nepal’s great traverse: rice terraces, apple orchards, high desert, and one serious pass. It rewards travelers who want variety more than a single viewpoint.",
+      "We start after a road transfer from Kathmandu or Pokhara and keep the walking days human. Thorong La is attempted only after proper acclimatization in Manang.",
+      "Finish in the Kali Gandaki and continue to Pokhara — an easy link to our daily tourist bus if you are heading back to Kathmandu."
+    ],
+    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "High mountain ridgeline in the Annapurna region",
+    "itinerary": [
+      { "day": "Day 1–2", "title": "Kathmandu to the trailhead", "detail": "Drive toward Besisahar and begin walking once the road ends." },
+      { "day": "Day 3–7", "title": "Marsyangdi to Manang", "detail": "Villages, pine forest, and a rest day around Manang." },
+      { "day": "Day 8–10", "title": "Thorong La", "detail": "Cross the pass and descend to Muktinath." },
+      { "day": "Day 11–16", "title": "Kali Gandaki to Pokhara", "detail": "Jomsom side, optional Poon Hill add-on, then Pokhara." }
+    ],
+    "includes": ["Kathmandu hotel pickup", "Private transfers to the trail", "Guide and porters", "Teahouse lodging and breakfasts", "ACAP and TIMS permits"],
+    "excludes": ["Lunches and dinners", "Insurance", "Pokhara hotel unless requested", "Tips"],
+    "permits": ["Annapurna Conservation Area Permit (ACAP)", "TIMS card"],
+    "packing": ["Warm layers for the pass", "Sun hat", "Water purification", "Light sandals for teahouses"],
+    "faqs": [
+      { "question": "Can I shorten the circuit?", "answer": "Yes. Many travelers start further up the road and finish by jeep from Jomsom. We will match the route to your dates." }
+    ],
+    "metaTitle": "Annapurna Circuit Trek from Kathmandu",
+    "metaDescription": "16-day Annapurna Circuit with Thorong La, teahouses, and permits arranged by a Kathmandu trekking team."
+  },
+  {
+    "slug": "annapurna-base-camp",
+    "title": "Annapurna Base Camp Trek",
+    "region": "Annapurna",
+    "duration": "10 days",
+    "durationDays": 10,
+    "maxAltitude": "4,130 m",
+    "difficulty": "Moderate",
+    "bestSeason": "Mar–May, Oct–Nov",
+    "groupSize": "2–12",
+    "startPoint": "Nayapul",
+    "priceFrom": 890,
+    "currency": "USD",
+    "featured": true,
+    "summary": "A shorter Annapurna classic into the sanctuary, with Poon Hill sunrise on the way.",
+    "overview": [
+      "Annapurna Base Camp is the right trek if you want a high Himalayan amphitheater without a 5,000-meter pass. The trail climbs through Gurung villages into the Annapurna Sanctuary.",
+      "Most itineraries include a Poon Hill sunrise before or after the sanctuary. We usually pair this trek with a night in Pokhara and a seat on our Kathmandu–Pokhara bus."
+    ],
+    "image": "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c1b?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Trekkers on a Himalayan trail with prayer flags",
+    "itinerary": [
+      { "day": "Day 1", "title": "Drive or bus to Pokhara", "detail": "Travel the Prithvi Highway and overnight by the lake." },
+      { "day": "Day 2–4", "title": "Nayapul to Ghorepani", "detail": "Stone steps, villages, and Poon Hill at dawn." },
+      { "day": "Day 5–7", "title": "Into the sanctuary", "detail": "Chhomrong, Bamboo, and Annapurna Base Camp." },
+      { "day": "Day 8–10", "title": "Descend and return", "detail": "Walk out to Nayapul, Pokhara, then Kathmandu if you wish." }
+    ],
+    "includes": ["Pokhara transfers", "Guide and porter", "Teahouses and breakfasts", "ACAP and TIMS"],
+    "excludes": ["Meals beyond breakfast", "Insurance", "Personal expenses"],
+    "permits": ["ACAP", "TIMS"],
+    "packing": ["Rain shell", "Warm fleece", "Trekking poles for the steps"],
+    "faqs": [
+      { "question": "Is ABC easier than Everest Base Camp?", "answer": "It is shorter and lower, so many first-time trekkers choose it. You still need several hours of walking each day." }
+    ],
+    "metaTitle": "Annapurna Base Camp Trek Itinerary",
+    "metaDescription": "10-day Annapurna Base Camp trek via Poon Hill, arranged from Kathmandu or Pokhara."
+  },
+  {
+    "slug": "langtang-valley",
+    "title": "Langtang Valley Trek",
+    "region": "Langtang",
+    "duration": "8 days",
+    "durationDays": 8,
+    "maxAltitude": "4,773 m",
+    "difficulty": "Moderate",
+    "bestSeason": "Mar–May, Oct–Nov",
+    "groupSize": "2–10",
+    "startPoint": "Syabrubesi",
+    "priceFrom": 720,
+    "currency": "USD",
+    "featured": true,
+    "summary": "A week in the valley north of Kathmandu — glaciers, Tamang villages, and no domestic flight.",
+    "overview": [
+      "Langtang is the trek we recommend when you want mountains without a Lukla flight. A road transfer from Kathmandu reaches the trail in a morning, and you are in a high valley within a few days.",
+      "Kyanjin Gompa is the heart of the route, with optional day hikes toward Tserko Ri if the weather is kind."
+    ],
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Snow peaks above a green mountain valley",
+    "itinerary": [
+      { "day": "Day 1", "title": "Drive to Syabrubesi", "detail": "Private or shared transfer north from Kathmandu." },
+      { "day": "Day 2–4", "title": "Langtang village to Kyanjin", "detail": "Forest, yak pastures, and the gompa." },
+      { "day": "Day 5", "title": "Acclimatization hike", "detail": "Tserko Ri or Kyanjin Ri, weather allowing." },
+      { "day": "Day 6–8", "title": "Descend and return", "detail": "Walk out and drive back to Kathmandu." }
+    ],
+    "includes": ["Return road transfer", "Guide and porter", "Lodging and breakfasts", "Langtang permit and TIMS"],
+    "excludes": ["Lunches and dinners", "Insurance"],
+    "permits": ["Langtang National Park permit", "TIMS"],
+    "packing": ["Warm hat and gloves", "Daypack", "Refillable bottle"],
+    "faqs": [
+      { "question": "Do I need to fly?", "answer": "No. Langtang is reached by road from Kathmandu." }
+    ],
+    "metaTitle": "Langtang Valley Trek from Kathmandu",
+    "metaDescription": "8-day Langtang Valley trek with road transfer from Kathmandu, teahouses, and a local guide."
+  },
+  {
+    "slug": "ghorepani-poon-hill",
+    "title": "Ghorepani Poon Hill Trek",
+    "region": "Annapurna",
+    "duration": "5 days",
+    "durationDays": 5,
+    "maxAltitude": "3,210 m",
+    "difficulty": "Easy",
+    "bestSeason": "Year-round; best Oct–May",
+    "groupSize": "2–14",
+    "startPoint": "Nayapul",
+    "priceFrom": 420,
+    "currency": "USD",
+    "featured": false,
+    "summary": "A short Annapurna classic for sunrise over Dhaulagiri and Annapurna from Poon Hill.",
+    "overview": [
+      "Poon Hill is the introduction we suggest for families and first-time trekkers. The walking is steady, the villages are lively, and the sunrise is the reason people come back to Nepal for longer routes.",
+      "Combine it with Pokhara and the daily bus so the whole trip stays simple."
+    ],
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Sunrise light on a Himalayan ridge",
+    "itinerary": [
+      { "day": "Day 1", "title": "To Pokhara", "detail": "Bus or private drive from Kathmandu." },
+      { "day": "Day 2–3", "title": "Nayapul to Ghorepani", "detail": "Village trail and a pre-dawn climb to Poon Hill." },
+      { "day": "Day 4–5", "title": "Ghandruk and out", "detail": "Descend through Ghandruk and return to Pokhara." }
+    ],
+    "includes": ["Guide", "Lodging and breakfasts", "Permits", "Pokhara transfers"],
+    "excludes": ["Bus fare unless added", "Lunches and dinners"],
+    "permits": ["ACAP", "TIMS"],
+    "packing": ["Light boots", "Warm layer for sunrise", "Rain jacket"],
+    "faqs": [
+      { "question": "Is Poon Hill suitable for beginners?", "answer": "Yes. It is the most approachable overnight trek we run, as long as you are fine with stone steps." }
+    ],
+    "metaTitle": "Poon Hill Trek — Short Annapurna Sunrise",
+    "metaDescription": "5-day Ghorepani Poon Hill trek from Pokhara with a local guide and teahouse stays."
+  },
+  {
+    "slug": "mardi-himal",
+    "title": "Mardi Himal Trek",
+    "region": "Annapurna",
+    "duration": "7 days",
+    "durationDays": 7,
+    "maxAltitude": "4,500 m",
+    "difficulty": "Moderate",
+    "bestSeason": "Mar–May, Oct–Nov",
+    "groupSize": "2–10",
+    "startPoint": "Kande",
+    "priceFrom": 640,
+    "currency": "USD",
+    "featured": false,
+    "summary": "A quieter ridge trek with close views of Machhapuchhre, based from Pokhara.",
+    "overview": [
+      "Mardi Himal sits just off the classic Annapurna routes, which keeps the trail quieter. The ridge walk toward High Camp is the highlight — Fishtail fills the sky.",
+      "It is a strong choice if you have a week and want something more alpine than Poon Hill."
+    ],
+    "image": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Sharp mountain peak above clouds",
+    "itinerary": [
+      { "day": "Day 1", "title": "Kathmandu to Pokhara", "detail": "Tourist bus or private transfer." },
+      { "day": "Day 2–4", "title": "Forest camp to High Camp", "detail": "Ridge walking with Machhapuchhre in view." },
+      { "day": "Day 5–7", "title": "Viewpoint and descend", "detail": "Mardi viewpoint, then back to Pokhara and onward." }
+    ],
+    "includes": ["Guide and porter", "Lodging and breakfasts", "Permits"],
+    "excludes": ["Main meals", "Insurance"],
+    "permits": ["ACAP", "TIMS"],
+    "packing": ["Warm sleeping layer", "Trekking poles", "Headlamp"],
+    "faqs": [
+      { "question": "How crowded is Mardi Himal?", "answer": "Noticeably quieter than ABC or Poon Hill, especially outside peak weeks." }
+    ],
+    "metaTitle": "Mardi Himal Trek from Pokhara",
+    "metaDescription": "7-day Mardi Himal trek with close views of Machhapuchhre, teahouses, and a Kathmandu-based operator."
+  },
+  {
+    "slug": "manaslu-circuit",
+    "title": "Manaslu Circuit Trek",
+    "region": "Manaslu",
+    "duration": "16 days",
+    "durationDays": 16,
+    "maxAltitude": "5,160 m",
+    "difficulty": "Strenuous",
+    "bestSeason": "Mar–May, Sep–Nov",
+    "groupSize": "2–10",
+    "startPoint": "Soti Khola",
+    "priceFrom": 1690,
+    "currency": "USD",
+    "featured": false,
+    "summary": "A restricted-area circuit around Manaslu for trekkers who want fewer crowds than Annapurna.",
+    "overview": [
+      "Manaslu is the circuit people choose after they have seen the classic trails. It requires a restricted-area permit and a licensed guide — both of which we arrange in Kathmandu before departure.",
+      "The trail follows the Budhi Gandaki, crosses Larke La, and finishes toward the Annapurna side. Expect long days and a genuine sense of remoteness."
+    ],
+    "image": "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Remote mountain landscape with a glacial lake",
+    "itinerary": [
+      { "day": "Day 1–2", "title": "Drive to the trail", "detail": "Leave Kathmandu for Soti Khola and start walking." },
+      { "day": "Day 3–9", "title": "Budhi Gandaki to Samagaon", "detail": "Villages, a rest day, and views of Manaslu." },
+      { "day": "Day 10–12", "title": "Larke La", "detail": "Cross the pass and descend." },
+      { "day": "Day 13–16", "title": "Exit and return", "detail": "Walk out and drive back via Besisahar." }
+    ],
+    "includes": ["Restricted area permit", "Guide and porters", "Transfers", "Lodging and breakfasts"],
+    "excludes": ["Lunches and dinners", "Special permit supplements for large groups if quoted separately"],
+    "permits": ["Manaslu restricted area permit", "Manaslu Conservation Area Permit", "ACAP", "TIMS"],
+    "packing": ["Four-season sleeping bag", "Gaiters", "Warm gloves"],
+    "faqs": [
+      { "question": "Can I trek Manaslu without a guide?", "answer": "No. The restricted area requires a licensed guide and a minimum group size set by the permit rules." }
+    ],
+    "metaTitle": "Manaslu Circuit Trek Permit & Itinerary",
+    "metaDescription": "16-day Manaslu Circuit with restricted-area permits, guide, and teahouses from Kathmandu."
+  },
+  {
+    "slug": "gokyo-lakes",
+    "title": "Gokyo Lakes Trek",
+    "region": "Everest",
+    "duration": "12 days",
+    "durationDays": 12,
+    "maxAltitude": "5,357 m",
+    "difficulty": "Challenging",
+    "bestSeason": "Mar–May, Sep–Nov",
+    "groupSize": "2–10",
+    "startPoint": "Lukla",
+    "priceFrom": 1390,
+    "currency": "USD",
+    "featured": false,
+    "summary": "Turquoise lakes and a Gokyo Ri panorama — the quieter side of the Khumbu.",
+    "overview": [
+      "Gokyo is for travelers who want Everest-region scale without the Base Camp crowds. The lakes sit under Cho Oyu, and Gokyo Ri gives one of the widest panoramas in Nepal.",
+      "We can extend toward Everest Base Camp via Cho La if you have extra days and good weather."
+    ],
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Alpine lake and mountain valley",
+    "itinerary": [
+      { "day": "Day 1–2", "title": "Kathmandu and Lukla", "detail": "Briefing, flight, and walk toward Namche." },
+      { "day": "Day 3–6", "title": "To Gokyo", "detail": "Acclimatization, then the lake basin." },
+      { "day": "Day 7", "title": "Gokyo Ri", "detail": "Sunrise panorama and a flexible afternoon." },
+      { "day": "Day 8–12", "title": "Descend", "detail": "Return via Namche to Lukla and Kathmandu." }
+    ],
+    "includes": ["Lukla flights", "Guide and porter", "Permits", "Teahouses and breakfasts"],
+    "excludes": ["Trail meals", "Insurance"],
+    "permits": ["Sagarmatha National Park", "Khumbu municipality", "TIMS"],
+    "packing": ["Sun protection at the lakes", "Down layer", "Camera batteries"],
+    "faqs": [
+      { "question": "Can Gokyo be combined with Base Camp?", "answer": "Yes, via Cho La, if you add days and the pass is open. Ask us when you inquire." }
+    ],
+    "metaTitle": "Gokyo Lakes Trek in the Everest Region",
+    "metaDescription": "12-day Gokyo Lakes trek with Gokyo Ri, teahouses, and flights from Kathmandu."
+  },
+  {
+    "slug": "upper-mustang",
+    "title": "Upper Mustang Trek",
+    "region": "Mustang",
+    "duration": "14 days",
+    "durationDays": 14,
+    "maxAltitude": "4,200 m",
+    "difficulty": "Moderate",
+    "bestSeason": "May–Oct",
+    "groupSize": "2–10",
+    "startPoint": "Jomsom",
+    "priceFrom": 1890,
+    "currency": "USD",
+    "featured": false,
+    "summary": "Walled Lo Manthang and a high desert kingdom north of the Annapurnas.",
+    "overview": [
+      "Upper Mustang feels unlike the rest of Nepal: red cliffs, cave dwellings, and a Tibetan-influenced culture in Lo Manthang. It is a restricted region, so permits are a real part of the planning — we handle them in Kathmandu.",
+      "Walking is on dry trails rather than forest. The season is narrower, and the permit cost is higher than standard treks, which is reflected in the price."
+    ],
+    "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "High desert cliffs and a remote trail",
+    "itinerary": [
+      { "day": "Day 1–2", "title": "To Jomsom", "detail": "Fly or drive via Pokhara, then begin north." },
+      { "day": "Day 3–8", "title": "Toward Lo Manthang", "detail": "Villages, caves, and the walled town." },
+      { "day": "Day 9–14", "title": "Return south", "detail": "Alternate trail out and back to Pokhara or Kathmandu." }
+    ],
+    "includes": ["Restricted area permit", "Guide", "Lodging and breakfasts", "Internal transfers as quoted"],
+    "excludes": ["Flights if chosen over driving", "Lunches and dinners"],
+    "permits": ["Upper Mustang restricted area permit", "ACAP"],
+    "packing": ["Sun protection", "Scarf for wind", "Warm evenings layer"],
+    "faqs": [
+      { "question": "Why is Mustang more expensive?", "answer": "The restricted-area permit is priced per day by the government and must be arranged in advance." }
+    ],
+    "metaTitle": "Upper Mustang Trek to Lo Manthang",
+    "metaDescription": "14-day Upper Mustang trek with restricted permits, Lo Manthang, and a Kathmandu operator."
+  },
+  {
+    "slug": "everest-three-passes",
+    "title": "Everest Three Passes Trek",
+    "region": "Everest",
+    "duration": "18 days",
+    "durationDays": 18,
+    "maxAltitude": "5,535 m",
+    "difficulty": "Strenuous",
+    "bestSeason": "Apr–May, Oct–Nov",
+    "groupSize": "2–8",
+    "startPoint": "Lukla",
+    "priceFrom": 1990,
+    "currency": "USD",
+    "featured": false,
+    "summary": "Kongma La, Cho La, and Renjo La — the full Khumbu for experienced trekkers.",
+    "overview": [
+      "Three Passes is the Khumbu without shortcuts. You link Everest Base Camp, the Gokyo lakes, and three high passes. It is for people who have trekked before and want a longer, harder route.",
+      "We keep group sizes small and build weather days into the plan so a closed pass does not wreck the trip."
+    ],
+    "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "High snowy mountain pass",
+    "itinerary": [
+      { "day": "Day 1–4", "title": "Into the Khumbu", "detail": "Lukla, Namche, and acclimatization." },
+      { "day": "Day 5–10", "title": "Chukhung and Kongma La", "detail": "East side of the valley and the first pass." },
+      { "day": "Day 11–14", "title": "Cho La to Gokyo", "detail": "Second pass and the lakes." },
+      { "day": "Day 15–18", "title": "Renjo La and out", "detail": "Third pass, then descend to Lukla." }
+    ],
+    "includes": ["Flights", "Guide and porters", "Permits", "Teahouses and breakfasts"],
+    "excludes": ["Trail meals", "Insurance", "Extra nights for weather"],
+    "permits": ["Sagarmatha National Park", "Khumbu municipality", "TIMS"],
+    "packing": ["Microspikes if early season", "Serious down gear", "Experience on rough trails"],
+    "faqs": [
+      { "question": "Is this a first trek?", "answer": "We do not recommend it as a first high-altitude trek. Everest Base Camp or Gokyo is a better start." }
+    ],
+    "metaTitle": "Everest Three Passes Trek",
+    "metaDescription": "18-day Everest Three Passes trek for experienced walkers, with guides and permits from Kathmandu."
+  }
+]

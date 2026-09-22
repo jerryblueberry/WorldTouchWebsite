@@ -1,0 +1,82 @@
+{
+  "slug": "kathmandu-pokhara",
+  "title": "Kathmandu ↔ Pokhara Tourist Bus",
+  "summary": "Daily tourist coaches both ways on the Prithvi Highway — reserved seats, hotel-area pickup in Kathmandu, and a lakeside drop in Pokhara.",
+  "metaTitle": "Kathmandu to Pokhara Tourist Bus | Daily Service",
+  "metaDescription": "Daily Kathmandu to Pokhara and Pokhara to Kathmandu tourist buses. Schedules, seat classes, prices, and booking with World Touch.",
+  "heroImage": "https://images.unsplash.com/photo-1544620341-11cb2cd7c7c5?auto=format&fit=crop&w=1800&q=80",
+  "heroAlt": "Tourist coach on a mountain highway",
+  "overview": [
+    "The Kathmandu–Pokhara road is how most travelers move between the capital and the lake. World Touch runs daily tourist buses in both directions, aimed at international guests who want a reserved seat, a known pickup, and a coach that is cleaned and crewed for the highway — not a local microbus.",
+    "The ride follows the Prithvi Highway beside the Trishuli and Marsyangdi rivers. On a clear day you see Annapurna-range foothills; in monsoon you see green gorges and careful driving. Typical journey time is 7 to 8 hours including a lunch stop, sometimes longer if the highway is slow.",
+    "Book with the same Kathmandu desk that handles our treks. If you are starting or finishing a Poon Hill, Mardi, or Annapurna Base Camp trek, we line the bus up with your Pokhara hotel night."
+  ],
+  "history": "We began as a Thamel trekking desk and added the Pokhara coach because guests kept asking for one reliable seat instead of a street-side ticket. The service has run daily in both directions through the main season for years, with sofa and deluxe coaches added as the highway and traveler expectations improved.",
+  "route": {
+    "highway": "Prithvi Highway (Kathmandu–Mugling–Pokhara)",
+    "distance": "About 200 km",
+    "duration": "7–8 hours typical, including lunch",
+    "notes": [
+      "Morning departures only — we do not run overnight buses on this route.",
+      "A lunch stop is made around Mugling or a similar highway town.",
+      "Mountain weather and road works can add time. We would rather arrive late than rush the gorge sections.",
+      "Pokhara drop is at a lakeside tourist-bus park; Kathmandu drop is in the Thamel / Sorhakhutte tourist-bus area, with hotel drop on selected coaches."
+    ]
+  },
+  "departures": [
+    { "direction": "Kathmandu → Pokhara", "departs": "7:00", "arrives": "14:30–15:30", "duration": "7–8 hrs", "pickup": "Thamel hotel area, from 6:15" },
+    { "direction": "Kathmandu → Pokhara", "departs": "7:30", "arrives": "15:00–16:00", "duration": "7–8 hrs", "pickup": "Tourist bus park, walk-in" },
+    { "direction": "Kathmandu → Pokhara", "departs": "8:00", "arrives": "15:30–16:30", "duration": "7–8 hrs", "pickup": "Selected deluxe coaches" },
+    { "direction": "Pokhara → Kathmandu", "departs": "7:00", "arrives": "14:30–15:30", "duration": "7–8 hrs", "pickup": "Lakeside tourist bus park" },
+    { "direction": "Pokhara → Kathmandu", "departs": "7:30", "arrives": "15:00–16:00", "duration": "7–8 hrs", "pickup": "Hotel pickup on deluxe" },
+    { "direction": "Pokhara → Kathmandu", "departs": "8:00", "arrives": "15:30–16:30", "duration": "7–8 hrs", "pickup": "Lakeside, sofa class" }
+  ],
+  "classes": [
+    {
+      "name": "Tourist coach",
+      "summary": "The everyday reserved-seat bus most travelers choose. Reclining seats, a shared cabin, and a crew that knows the highway stops.",
+      "priceFrom": 18,
+      "image": "https://images.unsplash.com/photo-1570125909232-eb263c188f77?auto=format&fit=crop&w=1400&q=80",
+      "imageAlt": "Coach interior with rows of seats",
+      "features": ["Reserved seat", "Reclining chairs", "Luggage in the hold", "Lunch stop", "Shared AC when fitted"]
+    },
+    {
+      "name": "Deluxe AC",
+      "summary": "A newer cabin with stronger air-conditioning, fewer seats, and hotel pickup in Kathmandu on most mornings.",
+      "priceFrom": 25,
+      "image": "https://images.unsplash.com/photo-1544620341-11cb2cd7c7c5?auto=format&fit=crop&w=1400&q=80",
+      "imageAlt": "Modern coach on an open road",
+      "features": ["AC cabin", "Wider recline", "Hotel pickup in Thamel", "Reserved seat", "Bottled water"]
+    },
+    {
+      "name": "Sofa seat",
+      "summary": "The most comfortable public option we sell: 1+1 or 2+1 sofa-style seats for guests who want space on a full travel day.",
+      "priceFrom": 32,
+      "image": "https://images.unsplash.com/photo-1464219789935-c2d9d9aba644?auto=format&fit=crop&w=1400&q=80",
+      "imageAlt": "Comfortable long-distance bus seating",
+      "features": ["Sofa-style seats", "Extra legroom", "AC", "Priority boarding", "Hotel pickup where the coach allows"]
+    }
+  ],
+  "amenities": [
+    "Reserved seating — your name is on a seat, not a scramble at the door",
+    "Luggage hold for trek duffels; a small bag can stay with you",
+    "Lunch stop with time to eat; meals are not included",
+    "Air-conditioning on deluxe and sofa coaches",
+    "Crew who announce pickup points in English",
+    "Simple journey support from our Kathmandu desk if the highway is delayed"
+  ],
+  "policies": [
+    { "title": "Booking", "detail": "Reserve by WhatsApp, email, or the contact form. Same-day seats are sometimes available before 6:00 if the coach is not full — ask, do not assume." },
+    { "title": "Payment", "detail": "Pay at our Thamel desk, by bank transfer, or in cash on boarding for confirmed bookings. Card payment can be arranged in the office." },
+    { "title": "Cancellation", "detail": "Free changes up to 24 hours before departure. Later cancellations may keep a seat fee if we cannot resell it." },
+    { "title": "Luggage", "detail": "One trek duffel and one cabin bag is the usual allowance. Extra cargo needs a check with us first." },
+    { "title": "ID", "detail": "Carry your passport. Crews may note names against the manifest, especially on deluxe coaches." }
+  ],
+  "faqs": [
+    { "question": "How long is the Kathmandu to Pokhara bus?", "answer": "Plan on 7 to 8 hours, including a lunch stop. Landslides or traffic near Mugling can make it longer." },
+    { "question": "Is the tourist bus safe?", "answer": "It is the standard way international travelers do this route. We use established highway coaches, morning departures, and crews who drive this road daily. It is still a mountain highway — we do not oversell it as a flight." },
+    { "question": "Can I book both directions?", "answer": "Yes. Most trek guests book Kathmandu to Pokhara before the trek and Pokhara to Kathmandu after." },
+    { "question": "Do you pick up from my hotel?", "answer": "Thamel hotels are covered on morning Kathmandu departures for deluxe and many tourist coaches. Outside Thamel, ask us — we will say clearly if you need to reach the bus park." },
+    { "question": "Is there Wi-Fi?", "answer": "Do not count on it. Mobile data works on much of the highway and drops in the gorges." }
+  ]
+}
