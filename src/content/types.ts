@@ -13,8 +13,6 @@ export type Trek = {
   bestSeason: string;
   groupSize: string;
   startPoint: string;
-  priceFrom: number;
-  currency: "USD";
   featured: boolean;
   summary: string;
   overview: string[];
@@ -37,8 +35,6 @@ export type Tour = {
   duration: string;
   difficulty: "Easy" | "Moderate";
   groupSize: string;
-  priceFrom: number;
-  currency: "USD";
   featured: boolean;
   summary: string;
   overview: string[];
@@ -56,7 +52,6 @@ export type Tour = {
 export type BusClass = {
   name: string;
   summary: string;
-  priceFrom: number;
   image: string;
   imageAlt: string;
   features: string[];
@@ -68,6 +63,12 @@ export type BusDeparture = {
   arrives: string;
   duration: string;
   pickup: string;
+};
+
+export type BusGalleryImage = {
+  image: string;
+  imageAlt: string;
+  caption: string;
 };
 
 export type BusContent = {
@@ -88,6 +89,7 @@ export type BusContent = {
   };
   departures: BusDeparture[];
   classes: BusClass[];
+  gallery: BusGalleryImage[];
   amenities: string[];
   policies: { title: string; detail: string }[];
   faqs: Faq[];

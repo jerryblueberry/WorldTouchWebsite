@@ -5,7 +5,6 @@ import { CtaBand } from "@/components/site/cta-band";
 import { OfferCard } from "@/components/site/offer-card";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import {
-  formatPrice,
   getRelatedTreks,
   getTrek,
   treks,
@@ -30,6 +29,13 @@ export async function generateMetadata({
     description: trek.metaDescription,
     path: `/treks/${trek.slug}/`,
     image: trek.image,
+    keywords: [
+      trek.title,
+      `${trek.region} trek`,
+      "Nepal trekking",
+      "Himalayas",
+      "Kathmandu",
+    ],
   });
 }
 
@@ -66,12 +72,6 @@ export default async function TrekPage({
             description: trek.summary,
             image: trek.image,
             url: `${siteConfig.url}/treks/${trek.slug}/`,
-            offers: {
-              "@type": "Offer",
-              priceCurrency: trek.currency,
-              price: trek.priceFrom,
-              url: `${siteConfig.url}/treks/${trek.slug}/`,
-            },
           },
           {
             "@context": "https://schema.org",
@@ -162,13 +162,7 @@ export default async function TrekPage({
           </div>
         </div>
         <aside className="h-fit rounded-2xl border border-[color:var(--line)] bg-white p-6 lg:sticky lg:top-24">
-          <p className="text-xs tracking-[0.16em] text-[color:var(--muted-ink)] uppercase">
-            From
-          </p>
-          <p className="mt-1 font-display text-4xl text-[color:var(--ink)]">
-            {formatPrice(trek.priceFrom, trek.currency)}
-          </p>
-          <dl className="mt-6 space-y-3 text-sm">
+          <dl className="space-y-3 text-sm">
             {facts.map(([label, value]) => (
               <div key={label} className="flex justify-between gap-4">
                 <dt className="text-[color:var(--muted-ink)]">{label}</dt>
@@ -197,8 +191,6 @@ export default async function TrekPage({
                 image={item.image}
                 imageAlt={item.imageAlt}
                 meta={item.duration}
-                priceFrom={item.priceFrom}
-                currency={item.currency}
                 kicker={item.region}
               />
             ))}

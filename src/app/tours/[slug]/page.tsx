@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { CtaBand } from "@/components/site/cta-band";
 import { PageHero } from "@/components/site/page-hero";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
-import { formatPrice, getTour, tours } from "@/content";
+import { getTour, tours } from "@/content";
 import { siteConfig } from "@/data/site";
 import { buildMetadata } from "@/lib/seo";
 
@@ -24,6 +24,13 @@ export async function generateMetadata({
     description: tour.metaDescription,
     path: `/tours/${tour.slug}/`,
     image: tour.image,
+    keywords: [
+      tour.title,
+      "Nepal sightseeing",
+      "Kathmandu tours",
+      "Pokhara",
+      tour.category,
+    ],
   });
 }
 
@@ -50,11 +57,6 @@ export default async function TourPage({
             description: tour.summary,
             image: tour.image,
             url: `${siteConfig.url}/tours/${tour.slug}/`,
-            offers: {
-              "@type": "Offer",
-              price: tour.priceFrom,
-              priceCurrency: tour.currency,
-            },
           },
           {
             "@context": "https://schema.org",
@@ -129,9 +131,7 @@ export default async function TourPage({
           ))}
         </div>
         <aside className="h-fit rounded-2xl border border-[color:var(--line)] bg-white p-6 lg:sticky lg:top-24">
-          <p className="text-xs tracking-[0.16em] text-[color:var(--muted-ink)] uppercase">From</p>
-          <p className="mt-1 font-display text-4xl">{formatPrice(tour.priceFrom, tour.currency)}</p>
-          <p className="mt-2 text-sm text-[color:var(--muted-ink)]">
+          <p className="text-sm text-[color:var(--muted-ink)]">
             {tour.duration} · {tour.groupSize} · {tour.difficulty}
           </p>
           <Link

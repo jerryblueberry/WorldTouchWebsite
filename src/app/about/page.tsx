@@ -1,17 +1,29 @@
 import { PageHero } from "@/components/site/page-hero";
+import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import { siteConfig } from "@/data/site";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "About",
+  title: "About Our Kathmandu Team",
   description:
-    "World Touch Tour and Travels is a Kathmandu trekking and transport desk — licensed guides, daily Pokhara buses, and trips planned for international guests.",
+    "World Touch Tour and Travels plans Himalayan treks, Kathmandu and Pokhara sightseeing, and the daily tourist bus from a Thamel desk.",
   path: "/about/",
+  keywords: [
+    "Kathmandu trekking company",
+    "Nepal tour operator",
+    "World Touch Tour and Travels",
+  ],
 });
 
 export default function AboutPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Home", path: "/" },
+          { name: "About", path: "/about/" },
+        ])}
+      />
       <PageHero
         eyebrow="About"
         title="A Thamel desk that still answers the phone"
@@ -27,8 +39,7 @@ export default function AboutPage() {
           <p>
             The people you meet are Nepali guides and office staff. English is the
             working language of the briefings because most of our guests fly in
-            from elsewhere. Prices are quoted in USD so you can compare them
-            before you land.
+            from elsewhere.
           </p>
           <p>
             We are registered for tourism work in Nepal and operate with TAAN-aligned

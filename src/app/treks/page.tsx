@@ -1,18 +1,32 @@
 import { PageHero } from "@/components/site/page-hero";
 import { TrekBrowser } from "@/components/treks/trek-browser";
+import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import { treks } from "@/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Nepal Treks",
+  title: "Himalayan Treks in Nepal",
   description:
-    "Guided treks in Nepal from a Kathmandu team — Everest Base Camp, Annapurna, Langtang, Manaslu, and shorter Pokhara trails.",
+    "Guided Himalayan trekking from Kathmandu — Everest, Annapurna, Langtang, Manaslu, and shorter mountain trails via Pokhara.",
   path: "/treks/",
+  keywords: [
+    "Nepal trekking",
+    "Himalayan treks",
+    "Everest Base Camp",
+    "Annapurna trek",
+    "Kathmandu trekking company",
+  ],
 });
 
 export default function TreksPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Home", path: "/" },
+          { name: "Treks", path: "/treks/" },
+        ])}
+      />
       <PageHero
         eyebrow="Treks"
         title="Himalayan treks, arranged in Kathmandu"
@@ -31,8 +45,6 @@ export default function TreksPage() {
           <p className="mt-4">
             World Touch is based in Thamel. That matters for permits, Lukla flights, and
             the morning you need a seat to Pokhara before Annapurna Base Camp or Poon Hill.
-            Prices shown are per person from, in a small group, and shift with season and
-            hotel standard in Kathmandu.
           </p>
         </div>
         <div className="mt-10">

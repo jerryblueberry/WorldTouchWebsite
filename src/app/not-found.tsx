@@ -1,6 +1,13 @@
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "cn";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "Page not found",
+  description: "This page is not on the World Touch site.",
+  noIndex: true,
+});
 
 export default function NotFound() {
   return (
@@ -12,8 +19,7 @@ export default function NotFound() {
         This path isn&apos;t on the map
       </h1>
       <p className="mt-3 max-w-md text-[color:var(--muted-ink)]">
-        The page you&apos;re looking for may have moved. Try tours or destinations
-        instead.
+        The page you&apos;re looking for may have moved. Try treks, tours, or the Pokhara bus.
       </p>
       <div className="mt-8 flex gap-3">
         <Link

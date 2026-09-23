@@ -20,7 +20,7 @@ Edit copy here. Pages read these files at build time — no CMS.
 
 ## Voice
 
-Kathmandu company, international readers. Concrete (permits, hours, highway) over slogans. Prices are “from” in USD.
+Kathmandu company, international readers. Concrete (permits, hours, highway) over slogans. Do not add public prices.
 
 ## Images
 

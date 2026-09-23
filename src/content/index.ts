@@ -7,14 +7,6 @@ export const treks = treksJson as Trek[];
 export const tours = toursJson as Tour[];
 export const bus = busJson as BusContent;
 
-export function formatPrice(amount: number, currency: string = "USD") {
-  return new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency,
-    maximumFractionDigits: 0,
-  }).format(amount);
-}
-
 export function getTrek(slug: string) {
   return treks.find((trek) => trek.slug === slug);
 }

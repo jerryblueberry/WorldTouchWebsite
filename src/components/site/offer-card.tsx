@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { formatPrice } from "@/content";
 
 type OfferCardProps = {
   href: string;
@@ -11,8 +10,6 @@ type OfferCardProps = {
   image: string;
   imageAlt: string;
   meta: string;
-  priceFrom: number;
-  currency: string;
   kicker?: string;
 };
 
@@ -23,8 +20,6 @@ export function OfferCard({
   image,
   imageAlt,
   meta,
-  priceFrom,
-  currency,
   kicker,
 }: OfferCardProps) {
   return (
@@ -55,13 +50,7 @@ export function OfferCard({
         <p className="line-clamp-3 text-sm leading-relaxed text-[color:var(--muted-ink)]">
           {summary}
         </p>
-        <div className="mt-auto flex items-end justify-between pt-3">
-          <div>
-            <p className="text-xs text-[color:var(--muted-ink)]">From</p>
-            <p className="text-lg font-semibold text-[color:var(--ink)]">
-              {formatPrice(priceFrom, currency)}
-            </p>
-          </div>
+        <div className="mt-auto flex items-end justify-end pt-3">
           <Link
             href={href}
             className="inline-flex items-center gap-1 text-sm font-medium text-[color:var(--lagoon-ink)]"

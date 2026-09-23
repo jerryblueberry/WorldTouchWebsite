@@ -1,39 +1,51 @@
 import Link from "next/link";
-import { Bus, Compass, Mountain } from "lucide-react";
+import Image from "next/image";
+import { ArrowUpRight } from "lucide-react";
 import { HomeHero } from "@/components/home/hero";
 import { RevealOnScroll } from "@/components/home/reveal-on-scroll";
 import { CardCarousel } from "@/components/site/card-carousel";
 import { CtaBand } from "@/components/site/cta-band";
 import { OfferCard } from "@/components/site/offer-card";
-import { formatPrice, getFeaturedTours, getFeaturedTreks } from "@/content";
+import { JsonLd, servicesJsonLd } from "@/components/seo/json-ld";
+import { getFeaturedTours, getFeaturedTreks } from "@/content";
 import { bus } from "@/content";
 import { siteConfig } from "@/data/site";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: siteConfig.name,
+  title: `${siteConfig.name} | Himalayan Treks, Nepal Tours & Pokhara Bus`,
   description: siteConfig.description,
   path: "/",
+  absolute: true,
+  keywords: siteConfig.keywords,
 });
 
 const paths = [
   {
     href: "/treks/",
+    index: "01",
     title: "Treks",
     body: "Everest, Annapurna, Langtang, and quieter trails — guided from Kathmandu.",
-    icon: Mountain,
+    image:
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    imageAlt: "High Himalayan ridge in Nepal",
   },
   {
     href: "/tours/",
+    index: "02",
     title: "Tours",
     body: "Heritage days, Pokhara, and Chitwan, paced for first visits and layover days.",
-    icon: Compass,
+    image:
+      "https://images.unsplash.com/photo-1605640840605-14ac1855827b?auto=format&fit=crop&w=1400&q=80",
+    imageAlt: "Temple architecture in Kathmandu",
   },
   {
     href: "/bus/",
+    index: "03",
     title: "KTM ↔ Pokhara bus",
     body: "Daily tourist coaches both ways, with reserved seats and a known pickup.",
-    icon: Bus,
+    image: bus.heroImage,
+    imageAlt: bus.heroAlt,
   },
 ];
 
@@ -62,25 +74,56 @@ export default function HomePage() {
 
   return (
     <>
+      <JsonLd data={servicesJsonLd()} />
       <HomeHero />
 
-      <section id="journeys" className="scroll-mt-20 bg-[color:var(--sand-cool)] py-16 sm:py-20">
-        <div className="mx-auto grid max-w-6xl gap-4 px-4 sm:grid-cols-3 sm:px-6">
-          {paths.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="rounded-2xl bg-white p-5 ring-1 ring-[color:var(--line)] transition hover:-translate-y-0.5"
-            >
-              <item.icon className="size-5 text-[color:var(--lagoon-ink)]" aria-hidden />
-              <h2 className="mt-4 font-display text-2xl text-[color:var(--ink)]">
-                {item.title}
-              </h2>
-              <p className="mt-2 text-sm leading-relaxed text-[color:var(--muted-ink)]">
-                {item.body}
-              </p>
-            </Link>
-          ))}
+      <section
+        id="journeys"
+        className="scroll-mt-20 border-t border-[color:var(--line)] bg-[color:var(--sand-cool)] py-16 sm:py-24"
+      >
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <RevealOnScroll>
+            <p className="text-xs font-semibold tracking-[0.18em] text-[color:var(--lagoon-ink)] uppercase">
+              Ways to travel
+            </p>
+            <h2 className="mt-2 max-w-xl font-display text-3xl tracking-tight text-[color:var(--ink)] sm:text-4xl">
+              Treks, tours, and the road to Pokhara
+            </h2>
+          </RevealOnScroll>
+          <div className="mt-8 grid gap-5 sm:mt-10 md:grid-cols-3 md:gap-6">
+            {paths.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group flex h-full flex-col overflow-hidden rounded-2xl bg-white shadow-[0_18px_50px_-28px_rgba(10,35,66,0.45)] ring-1 ring-[color:var(--line)] transition duration-500 hover:-translate-y-1"
+              >
+                <span className="relative block aspect-[16/10] overflow-hidden">
+                  <Image
+                    src={item.image}
+                    alt={item.imageAlt}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover transition duration-700 group-hover:scale-[1.04]"
+                  />
+                  <span className="absolute top-3 left-3 rounded-full bg-white/92 px-2.5 py-1 text-[0.68rem] font-semibold tracking-[0.16em] text-[color:var(--ink)]">
+                    {item.index}
+                  </span>
+                </span>
+                <span className="flex flex-1 flex-col p-5 sm:p-6">
+                  <span className="font-display text-2xl tracking-tight text-[color:var(--ink)]">
+                    {item.title}
+                  </span>
+                  <span className="mt-2 flex-1 text-sm leading-relaxed text-[color:var(--muted-ink)]">
+                    {item.body}
+                  </span>
+                  <span className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-[color:var(--lagoon-ink)]">
+                    Explore
+                    <ArrowUpRight className="size-3.5 transition duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </span>
+                </span>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -107,8 +150,6 @@ export default function HomePage() {
                   image={trek.image}
                   imageAlt={trek.imageAlt}
                   meta={trek.duration}
-                  priceFrom={trek.priceFrom}
-                  currency={trek.currency}
                   kicker={trek.region}
                 />
               </div>
@@ -141,8 +182,6 @@ export default function HomePage() {
                     image={tour.image}
                     imageAlt={tour.imageAlt}
                     meta={tour.duration}
-                    priceFrom={tour.priceFrom}
-                    currency={tour.currency}
                     kicker={tour.category}
                   />
                 </div>
@@ -161,13 +200,13 @@ export default function HomePage() {
             Kathmandu and Pokhara, both mornings
           </h2>
           <p className="mt-4 leading-relaxed text-[color:var(--muted-ink)]">
-            {bus.summary} Tourist seats from {formatPrice(bus.classes[0]?.priceFrom ?? 18)}.
+            {bus.summary}
           </p>
           <Link
             href="/bus/"
             className="mt-6 inline-flex text-sm font-medium text-[color:var(--lagoon-ink)] underline-offset-4 hover:underline"
           >
-            See times, coaches, and prices
+            See times and coaches
           </Link>
         </div>
         <ul className="grid gap-3 sm:grid-cols-2">

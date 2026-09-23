@@ -1,19 +1,24 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/data/site";
 
+/** Mountain still from the home film, cropped for link previews. */
 const defaultOgImage =
-  "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80";
+  "https://res.cloudinary.com/dgsphdhns/video/upload/so_0,w_1200,h_630,c_fill,g_auto,q_auto,f_jpg/v1763720502/sushil2_gbwnph.jpg";
 
 type BuildMetadataInput = {
   title: string;
   description: string;
   path?: string;
   image?: string;
+  keywords?: readonly string[];
+  /** Skip the layout title template. Use on the home page. */
+  absolute?: boolean;
   noIndex?: boolean;
 };
 
 export function absoluteUrl(path = "/") {
   const normalized = path.startsWith("/") ? path : `/${path}`;
+  if (normalized === "/") return `${siteConfig.url}/`;
   return `${siteConfig.url}${normalized}`;
 }
 
@@ -22,15 +27,18 @@ export function buildMetadata({
   description,
   path = "/",
   image = defaultOgImage,
+  keywords = siteConfig.keywords,
+  absolute = false,
   noIndex = false,
 }: BuildMetadataInput): Metadata {
   const url = absoluteUrl(path);
-  const fullTitle =
-    title === siteConfig.name ? title : `${title} | ${siteConfig.name}`;
+  const isDefaultImage = image === defaultOgImage;
+  const fullTitle = absolute ? title : `${title} | ${siteConfig.name}`;
 
   return {
-    title: fullTitle,
+    title: absolute ? { absolute: title } : title,
     description,
+    keywords: [...keywords],
     metadataBase: new URL(siteConfig.url),
     alternates: {
       canonical: url,
@@ -45,9 +53,8 @@ export function buildMetadata({
       images: [
         {
           url: image,
-          width: 1200,
-          height: 630,
-          alt: title,
+          alt: `${fullTitle}`,
+          ...(isDefaultImage ? { width: 1200, height: 630 } : {}),
         },
       ],
     },
@@ -59,6 +66,16 @@ export function buildMetadata({
     },
     robots: noIndex
       ? { index: false, follow: false }
-      : { index: true, follow: true },
+      : {
+          index: true,
+          follow: true,
+          googleBot: {
+            index: true,
+            follow: true,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+            "max-video-preview": -1,
+          },
+        },
   };
 }

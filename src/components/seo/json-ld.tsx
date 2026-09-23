@@ -13,15 +13,34 @@ export function JsonLd({ data }: JsonLdProps) {
   );
 }
 
+const organizationId = `${siteConfig.url}/#organization`;
+
 export function organizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "TravelAgency",
+    "@id": organizationId,
     name: siteConfig.name,
+    alternateName: siteConfig.shortName,
     url: siteConfig.url,
     description: siteConfig.description,
     email: siteConfig.email,
-    telephone: siteConfig.phone,
+    telephone: [siteConfig.phone, siteConfig.phoneAlt],
+    image: `${siteConfig.url}/icons/icon-512.png`,
+    logo: `${siteConfig.url}/icons/icon-512.png`,
+    slogan: siteConfig.tagline,
+    knowsAbout: [
+      "Himalayan trekking",
+      "Nepal mountain treks",
+      "Kathmandu sightseeing",
+      "Pokhara sightseeing",
+      "Kathmandu to Pokhara daily tourist bus",
+    ],
+    areaServed: [
+      { "@type": "Country", name: "Nepal" },
+      { "@type": "City", name: "Kathmandu" },
+      { "@type": "City", name: "Pokhara" },
+    ],
     address: {
       "@type": "PostalAddress",
       streetAddress: siteConfig.address.street,
@@ -30,7 +49,66 @@ export function organizationJsonLd() {
       postalCode: siteConfig.address.postalCode,
       addressCountry: siteConfig.address.country,
     },
-    sameAs: Object.values(siteConfig.social),
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: siteConfig.geo.latitude,
+      longitude: siteConfig.geo.longitude,
+    },
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+      ],
+      opens: "09:00",
+      closes: "18:00",
+    },
+    sameAs: [siteConfig.social.facebook],
+  };
+}
+
+export function websiteJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${siteConfig.url}/#website`,
+    name: siteConfig.name,
+    url: `${siteConfig.url}/`,
+    description: siteConfig.description,
+    inLanguage: "en",
+    publisher: { "@id": organizationId },
+  };
+}
+
+export function servicesJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Nepal treks, sightseeing, and the Kathmandu–Pokhara bus",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Himalayan treks in Nepal",
+        url: `${siteConfig.url}/treks/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Kathmandu and Pokhara sightseeing tours",
+        url: `${siteConfig.url}/tours/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Daily Kathmandu to Pokhara tourist bus",
+        url: `${siteConfig.url}/bus/`,
+      },
+    ],
   };
 }
 
@@ -54,8 +132,6 @@ export function tourJsonLd(tour: {
   description: string;
   slug: string;
   image: string;
-  priceFrom: number;
-  currency: string;
   duration: string;
 }) {
   return {
@@ -66,13 +142,6 @@ export function tourJsonLd(tour: {
     image: tour.image,
     url: `${siteConfig.url}/tours/${tour.slug}/`,
     touristType: "Adventure travelers",
-    offers: {
-      "@type": "Offer",
-      priceCurrency: tour.currency,
-      price: tour.priceFrom,
-      availability: "https://schema.org/InStock",
-      url: `${siteConfig.url}/tours/${tour.slug}/`,
-    },
     itinerary: {
       "@type": "ItemList",
       name: `${tour.title} itinerary`,

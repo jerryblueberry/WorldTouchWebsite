@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Fraunces, Outfit } from "next/font/google";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
-import { JsonLd, organizationJsonLd } from "@/components/seo/json-ld";
+import { JsonLd, organizationJsonLd, websiteJsonLd } from "@/components/seo/json-ld";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/site";
 import "./globals.css";
@@ -19,26 +19,31 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   ...buildMetadata({
-    title: siteConfig.name,
+    title: `${siteConfig.name} | Himalayan Treks, Nepal Tours & Pokhara Bus`,
     description: siteConfig.description,
     path: "/",
+    absolute: true,
   }),
   title: {
-    default: `${siteConfig.name} | ${siteConfig.tagline}`,
+    default: `${siteConfig.name} | Himalayan Treks, Nepal Tours & Pokhara Bus`,
     template: `%s | ${siteConfig.name}`,
   },
   applicationName: siteConfig.name,
+  authors: [{ name: siteConfig.name, url: siteConfig.url }],
+  creator: siteConfig.name,
+  publisher: siteConfig.name,
+  category: "travel",
   appleWebApp: {
     capable: true,
-    title: siteConfig.name,
-    statusBarStyle: "default",
+    title: siteConfig.shortName,
+    statusBarStyle: "black-translucent",
   },
 };
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#0c2f2b" },
-    { media: "(prefers-color-scheme: dark)", color: "#0c2f2b" },
+    { media: "(prefers-color-scheme: light)", color: "#0a2342" },
+    { media: "(prefers-color-scheme: dark)", color: "#0a2342" },
   ],
   colorScheme: "light",
 };
@@ -50,7 +55,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${outfit.variable} ${fraunces.variable} h-full`}
     >
       <body className="flex min-h-full flex-col font-sans">
-        <JsonLd data={organizationJsonLd()} />
+        <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />

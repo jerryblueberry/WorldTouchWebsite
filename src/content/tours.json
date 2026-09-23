@@ -6,26 +6,54 @@
     "duration": "1 day",
     "difficulty": "Easy",
     "groupSize": "2–12",
-    "priceFrom": 55,
-    "currency": "USD",
     "featured": true,
     "summary": "Swayambhunath, Patan Durbar Square, and Boudhanath with a licensed city guide.",
     "overview": [
       "A single day that explains why Kathmandu is more than a trek starting point. You move between hilltop stupas, palace squares, and living courtyards with someone who knows which stories are worth the time.",
-      "Hotel pickup in Thamel is included. The pace is walking-friendly, with time for tea rather than a checklist sprint."
+      "Hotel pickup in Thamel is included. The pace is walking-friendly, with time for tea rather than a checklist sprint.",
+      "Swayambhunath and Boudhanath are among the valley’s most visited Buddhist sites; Patan Durbar Square sits in Lalitpur’s old royal city. Plan on roughly 7–8 hours on the road and on foot, with monument entry fees handled by us."
     ],
-    "highlights": ["Swayambhunath", "Patan Durbar Square", "Boudhanath stupa", "Private guide and vehicle"],
+    "highlights": [
+      "Swayambhunath",
+      "Patan Durbar Square",
+      "Boudhanath stupa",
+      "Private guide and vehicle"
+    ],
     "image": "https://images.unsplash.com/photo-1605640840605-14ac1855827b?auto=format&fit=crop&w=1600&q=80",
     "imageAlt": "Temple and stupa architecture in Kathmandu",
     "itinerary": [
-      { "day": "Morning", "title": "Swayambhunath", "detail": "Monkey temple ridge and a first view over the valley." },
-      { "day": "Midday", "title": "Patan", "detail": "Durbar Square, courtyards, and lunch in the old city." },
-      { "day": "Afternoon", "title": "Boudhanath", "detail": "Circumambulation of the great stupa and return to your hotel." }
+      {
+        "day": "Morning",
+        "title": "Swayambhunath",
+        "detail": "Monkey temple ridge and a first view over the valley."
+      },
+      {
+        "day": "Midday",
+        "title": "Patan",
+        "detail": "Durbar Square, courtyards, and lunch in the old city."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Boudhanath",
+        "detail": "Circumambulation of the great stupa and return to your hotel."
+      }
     ],
-    "includes": ["Licensed guide", "Private vehicle and driver", "Monument entry fees", "Hotel pickup in Kathmandu"],
-    "excludes": ["Lunch", "Tips", "Personal shopping"],
+    "includes": [
+      "Licensed guide",
+      "Private vehicle and driver",
+      "Monument entry fees",
+      "Hotel pickup in Kathmandu"
+    ],
+    "excludes": [
+      "Lunch",
+      "Tips",
+      "Personal shopping"
+    ],
     "faqs": [
-      { "question": "Is this tour good on an arrival day?", "answer": "A lighter half-day version is better after a long flight. The full day works best once you have slept." }
+      {
+        "question": "Is this tour good on an arrival day?",
+        "answer": "A lighter half-day version is better after a long flight. The full day works best once you have slept."
+      }
     ],
     "metaTitle": "Kathmandu Heritage Day Tour",
     "metaDescription": "Private Kathmandu heritage tour of Swayambhunath, Patan, and Boudhanath with a local guide."
@@ -37,25 +65,47 @@
     "duration": "1 day",
     "difficulty": "Easy",
     "groupSize": "2–12",
-    "priceFrom": 65,
-    "currency": "USD",
     "featured": true,
     "summary": "Pashupatinath, Bhaktapur, and a quieter valley look beyond Thamel.",
     "overview": [
       "This day is for travelers who want the valley’s living religious life and its best-preserved medieval city. Bhaktapur rewards slow walking; Pashupatinath rewards respectful attention.",
-      "We keep the group small and skip sites that would only repeat the heritage day if you are doing both."
+      "We keep the group small and skip sites that would only repeat the heritage day if you are doing both.",
+      "Pashupatinath is Nepal’s holiest Hindu temple on the Bagmati River; Bhaktapur’s Durbar Square is a UNESCO World Heritage site known for brick lanes and Newari craft. Your guide explains etiquette at active cremation ghats and busy squares — about 6–7 hours door to door from Thamel."
     ],
-    "highlights": ["Pashupatinath", "Bhaktapur Durbar Square", "Pottery square", "Private transport"],
+    "highlights": [
+      "Pashupatinath",
+      "Bhaktapur Durbar Square",
+      "Pottery square",
+      "Private transport"
+    ],
     "image": "https://images.unsplash.com/photo-1558799401-1dcba79834c2?auto=format&fit=crop&w=1600&q=80",
     "imageAlt": "Historic brick square in the Kathmandu Valley",
     "itinerary": [
-      { "day": "Morning", "title": "Pashupatinath", "detail": "Riverside temples with context from your guide." },
-      { "day": "Afternoon", "title": "Bhaktapur", "detail": "Durbar Square, side lanes, and time to wander." }
+      {
+        "day": "Morning",
+        "title": "Pashupatinath",
+        "detail": "Riverside temples with context from your guide."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Bhaktapur",
+        "detail": "Durbar Square, side lanes, and time to wander."
+      }
     ],
-    "includes": ["Guide", "Transport", "Entry fees"],
-    "excludes": ["Lunch", "Tips"],
+    "includes": [
+      "Guide",
+      "Transport",
+      "Entry fees"
+    ],
+    "excludes": [
+      "Lunch",
+      "Tips"
+    ],
     "faqs": [
-      { "question": "Can I combine this with the heritage day?", "answer": "Yes. Many guests do one day of each before a trek or bus to Pokhara." }
+      {
+        "question": "Can I combine this with the heritage day?",
+        "answer": "Yes. Many guests do one day of each before a trek or bus to Pokhara."
+      }
     ],
     "metaTitle": "Kathmandu Valley Cultural Tour",
     "metaDescription": "Day tour of Pashupatinath and Bhaktapur with a private guide from Kathmandu."
@@ -67,25 +117,47 @@
     "duration": "1 day",
     "difficulty": "Easy",
     "groupSize": "2–10",
-    "priceFrom": 45,
-    "currency": "USD",
     "featured": true,
     "summary": "Phewa Lake, World Peace Pagoda, and a Sarangkot or lakeside evening.",
     "overview": [
       "Pokhara is where most of our treks and the daily bus meet. This day tour is the right way to land: a boat, a short climb to the pagoda, and time by the lake before a trek starts or after one ends.",
-      "We can add Sarangkot for sunrise if you overnight in Pokhara."
+      "We can add Sarangkot for sunrise if you overnight in Pokhara.",
+      "Phewa Lake sits at about 800 m with Annapurna and Machhapuchhre views on clear days. The World Peace Pagoda overlooks the water from the south ridge; optional stops include Devi’s Fall or the lakeside strip. Most guests spend 6–8 hours with a local guide and private transport between sites."
     ],
-    "highlights": ["Phewa boat", "Peace Pagoda", "Lakeside", "Optional Sarangkot"],
-    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1600&q=80",
+    "highlights": [
+      "Phewa boat",
+      "Peace Pagoda",
+      "Lakeside",
+      "Optional Sarangkot"
+    ],
+    "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790187039/istockphoto-687611810-612x612_mbqvfv.jpg",
     "imageAlt": "Lake and mountains near Pokhara",
     "itinerary": [
-      { "day": "Morning", "title": "Lake and pagoda", "detail": "Boat across Phewa and a walk up to the pagoda." },
-      { "day": "Afternoon", "title": "Lakeside", "detail": "Caves or Devi’s Fall on request, then free time." }
+      {
+        "day": "Morning",
+        "title": "Lake and pagoda",
+        "detail": "Boat across Phewa and a walk up to the pagoda."
+      },
+      {
+        "day": "Afternoon",
+        "title": "Lakeside",
+        "detail": "Caves or Devi’s Fall on request, then free time."
+      }
     ],
-    "includes": ["Guide", "Boat", "Local transport"],
-    "excludes": ["Lunch", "Sarangkot vehicle if added"],
+    "includes": [
+      "Guide",
+      "Boat",
+      "Local transport"
+    ],
+    "excludes": [
+      "Lunch",
+      "Sarangkot vehicle if added"
+    ],
     "faqs": [
-      { "question": "Can I do this after the bus from Kathmandu?", "answer": "The afternoon is enough for the lake. The full day is better if you arrive the evening before." }
+      {
+        "question": "Can I do this after the bus from Kathmandu?",
+        "answer": "The afternoon is enough for the lake. The full day is better if you arrive the evening before."
+      }
     ],
     "metaTitle": "Pokhara Day Tour — Lake and Viewpoints",
     "metaDescription": "Pokhara sightseeing with Phewa Lake and the World Peace Pagoda, easy to pair with the Kathmandu bus."
@@ -97,26 +169,53 @@
     "duration": "3 days",
     "difficulty": "Easy",
     "groupSize": "2–12",
-    "priceFrom": 280,
-    "currency": "USD",
     "featured": true,
     "summary": "Jungle walks, a river trip, and a night in the Terai after the mountains.",
     "overview": [
       "Chitwan is the contrast piece: warm air, grassland, and a chance to see rhino from a jeep or on foot with a park guide. We book a lodge that is comfortable without being a resort circus.",
-      "The drive from Kathmandu or Pokhara is straightforward, and we can time it after a trek."
+      "The drive from Kathmandu or Pokhara is straightforward, and we can time it after a trek.",
+      "Chitwan National Park is a UNESCO site in the Terai — roughly 930 km² of sal forest and grassland, home to one-horned rhino, gharial, and many bird species. Activities run with licensed park guides; jeep safari, canoe, and village walks are typical on a two-night stay in Sauraha."
     ],
-    "highlights": ["Jeep safari", "Canoe", "Village walk", "Lodge stay"],
-    "image": "https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=1600&q=80",
+    "highlights": [
+      "Jeep safari",
+      "Canoe",
+      "Village walk",
+      "Lodge stay"
+    ],
+    "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1765171868/Sushil%20Project/tours/nbkzlvxar1xtkuegmdhy.jpg",
     "imageAlt": "Wildlife landscape in a subtropical reserve",
     "itinerary": [
-      { "day": "Day 1", "title": "Travel to Chitwan", "detail": "Drive from Kathmandu or Pokhara and an evening briefing." },
-      { "day": "Day 2", "title": "Park activities", "detail": "Safari, canoe, and a nature walk." },
-      { "day": "Day 3", "title": "Return", "detail": "Morning birding if you wish, then drive back." }
+      {
+        "day": "Day 1",
+        "title": "Travel to Chitwan",
+        "detail": "Drive from Kathmandu or Pokhara and an evening briefing."
+      },
+      {
+        "day": "Day 2",
+        "title": "Park activities",
+        "detail": "Safari, canoe, and a nature walk."
+      },
+      {
+        "day": "Day 3",
+        "title": "Return",
+        "detail": "Morning birding if you wish, then drive back."
+      }
     ],
-    "includes": ["Lodge on twin share", "Park activities listed", "Transfers as quoted", "Meals at the lodge"],
-    "excludes": ["Tips for park guides", "Drinks"],
+    "includes": [
+      "Lodge on twin share",
+      "Park activities listed",
+      "Transfers",
+      "Meals at the lodge"
+    ],
+    "excludes": [
+      "Tips for park guides",
+      "Drinks"
+    ],
     "faqs": [
-      { "question": "Are wildlife sightings guaranteed?", "answer": "No ethical operator guarantees animals. Rhino sightings are common; tiger sightings are rare and never promised." }
+      {
+        "question": "Are wildlife sightings guaranteed?",
+        "answer": "No ethical operator guarantees animals. Rhino sightings are common; tiger sightings are rare and never promised."
+      }
     ],
     "metaTitle": "Chitwan National Park Jungle Tour",
     "metaDescription": "3-day Chitwan wildlife stay with safari and lodge, arranged from Kathmandu or Pokhara."
@@ -128,23 +227,39 @@
     "duration": "1 day",
     "difficulty": "Easy",
     "groupSize": "2–8",
-    "priceFrom": 50,
-    "currency": "USD",
     "featured": false,
     "summary": "Two Newari cities on foot, with courtyards most coach tours skip.",
     "overview": [
-      "A walking-focused day for people who care about craft and architecture more than monuments ticked off a list. Patan in the morning, Bhaktapur after lunch."
+      "A walking-focused day for people who care about craft and architecture more than monuments ticked off a list. Patan in the morning, Bhaktapur after lunch.",
+      "Patan’s Durbar Square and museum quarter are dense with stone carving; Bhaktapur’s pottery square and narrow lanes are best on foot. Expect 6–8 km of easy walking with a licensed guide and private car between the two cities."
     ],
-    "highlights": ["Patan Museum area", "Bhaktapur lanes", "Small group"],
+    "highlights": [
+      "Patan Museum area",
+      "Bhaktapur lanes",
+      "Small group"
+    ],
     "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1600&q=80",
     "imageAlt": "Ornate temple courtyard in Nepal",
     "itinerary": [
-      { "day": "Full day", "title": "Two cities", "detail": "Guided walking in Patan, transfer, then Bhaktapur at your own pace with the guide nearby." }
+      {
+        "day": "Full day",
+        "title": "Two cities",
+        "detail": "Guided walking in Patan, transfer, then Bhaktapur at your own pace with the guide nearby."
+      }
     ],
-    "includes": ["Guide", "Transport between cities", "Entry fees"],
-    "excludes": ["Lunch"],
+    "includes": [
+      "Guide",
+      "Transport between cities",
+      "Entry fees"
+    ],
+    "excludes": [
+      "Lunch"
+    ],
     "faqs": [
-      { "question": "How much walking?", "answer": "About 6–8 kilometers across the day, mostly flat lanes and squares." }
+      {
+        "question": "How much walking?",
+        "answer": "About 6–8 kilometers across the day, mostly flat lanes and squares."
+      }
     ],
     "metaTitle": "Bhaktapur and Patan Walking Tour",
     "metaDescription": "Small-group walking tour of Patan and Bhaktapur from Kathmandu."
@@ -156,24 +271,45 @@
     "duration": "2 days",
     "difficulty": "Easy",
     "groupSize": "2–8",
-    "priceFrom": 120,
-    "currency": "USD",
     "featured": false,
     "summary": "An overnight on the valley rim for a Himalayan sunrise without a trek.",
     "overview": [
-      "Nagarkot is the simplest mountain view we sell: drive up from Kathmandu, sleep above the haze, and watch the range at dawn. Ideal before or after a trek if you want one easy scenic night."
+      "Nagarkot is the simplest mountain view we sell: drive up from Kathmandu, sleep above the haze, and watch the range at dawn. Ideal before or after a trek if you want one easy scenic night.",
+      "The ridge village sits around 2,175 m on the valley rim — about 1.5–2 hours from Thamel by road. On clear mornings you may see Everest, Langtang, and the Annapurna range from the viewpoint; winter and post-monsoon months give the best odds."
     ],
-    "highlights": ["Sunrise viewpoint", "Quiet lodge", "Private transfer"],
+    "highlights": [
+      "Sunrise viewpoint",
+      "Quiet lodge",
+      "Private transfer"
+    ],
     "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
     "imageAlt": "Sunrise over a distant mountain range",
     "itinerary": [
-      { "day": "Day 1", "title": "Drive up", "detail": "Afternoon transfer and sunset if the sky is clear." },
-      { "day": "Day 2", "title": "Sunrise and return", "detail": "Dawn viewpoint and drive back to Kathmandu." }
+      {
+        "day": "Day 1",
+        "title": "Drive up",
+        "detail": "Afternoon transfer and sunset if the sky is clear."
+      },
+      {
+        "day": "Day 2",
+        "title": "Sunrise and return",
+        "detail": "Dawn viewpoint and drive back to Kathmandu."
+      }
     ],
-    "includes": ["Transfers", "Lodge breakfast", "Guide if requested"],
-    "excludes": ["Dinner", "Lunch"],
+    "includes": [
+      "Transfers",
+      "Lodge breakfast",
+      "Guide if requested"
+    ],
+    "excludes": [
+      "Dinner",
+      "Lunch"
+    ],
     "faqs": [
-      { "question": "Is the sunrise guaranteed?", "answer": "Clouds happen. We choose the clearer months and a lodge with a real viewpoint, but weather is weather." }
+      {
+        "question": "Is the sunrise guaranteed?",
+        "answer": "Clouds happen. We choose the clearer months and a lodge with a real viewpoint, but weather is weather."
+      }
     ],
     "metaTitle": "Nagarkot Sunrise Tour from Kathmandu",
     "metaDescription": "Overnight Nagarkot sunrise trip from Kathmandu with private transfer."
@@ -185,26 +321,54 @@
     "duration": "6 days",
     "difficulty": "Easy",
     "groupSize": "2–12",
-    "priceFrom": 690,
-    "currency": "USD",
     "featured": false,
     "summary": "The classic first Nepal journey: city, lake, and jungle — with our bus on the highway.",
     "overview": [
-      "This is the trip we build for guests who are not trekking but still want Nepal done properly. Two days in the valley, the tourist bus to Pokhara, a lake day, then Chitwan and the road home.",
-      "You travel with our team’s timing, not a random coach connection."
+      "This is the trip we build for guests who are not trekking but still want Nepal done properly: valley culture, a full day on Phewa Lake, and Chitwan National Park — linked by our daily AC tourist bus on the Prithvi Highway, not a last-minute ticket at the roadside.",
+      "Days 1–2 are in Kathmandu with your choice of heritage or valley day touring. Day 3 you board our reserved tourist coach toward Pokhara (about 200 km, 7–8 hours with breakfast and lunch stops along the Trishuli). Day 4 covers Pokhara’s lake and viewpoints. Days 5–6 continue to Chitwan for safari and canoe with park guides, then drive back to Kathmandu.",
+      "Hotels are comfortable mid-range properties in Thamel, lakeside Pokhara, and a lodge in Sauraha. Breakfast is included each morning; lunches and dinners are yours to choose locally. One Thamel desk holds the itinerary — bus seat, guides, transfers, and lodge timing.",
+      "October through April is the sweet spot for views and jungle heat; we will advise honestly if monsoon rain or summer humidity makes the jungle leg less enjoyable."
     ],
-    "highlights": ["Kathmandu sights", "Tourist bus to Pokhara", "Phewa Lake", "Chitwan lodge"],
-    "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1600&q=80",
-    "imageAlt": "Travelers on a scenic mountain road",
+    "highlights": [
+      "Kathmandu sights",
+      "Tourist bus to Pokhara",
+      "Phewa Lake",
+      "Chitwan lodge"
+    ],
+    "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790186996/pokhara_ugibm0.jpg",
+    "imageAlt": "Colorful boats on Phewa Lake with misty hills, Pokhara",
     "itinerary": [
-      { "day": "Day 1–2", "title": "Kathmandu", "detail": "Heritage touring and a free evening." },
-      { "day": "Day 3–4", "title": "Pokhara", "detail": "Morning tourist bus and a lake day." },
-      { "day": "Day 5–6", "title": "Chitwan and return", "detail": "Safari day and drive back to Kathmandu." }
+      {
+        "day": "Day 1–2",
+        "title": "Kathmandu",
+        "detail": "Heritage touring and a free evening."
+      },
+      {
+        "day": "Day 3–4",
+        "title": "Pokhara",
+        "detail": "Morning tourist bus and a lake day."
+      },
+      {
+        "day": "Day 5–6",
+        "title": "Chitwan and return",
+        "detail": "Safari day and drive back to Kathmandu."
+      }
     ],
-    "includes": ["Hotels", "Bus seat KTM–Pokhara", "Tours listed", "Breakfasts"],
-    "excludes": ["Lunches and dinners in cities", "Tips"],
+    "includes": [
+      "Hotels",
+      "Bus seat KTM–Pokhara",
+      "Tours listed",
+      "Breakfasts"
+    ],
+    "excludes": [
+      "Lunches and dinners in cities",
+      "Tips"
+    ],
     "faqs": [
-      { "question": "Can I upgrade the bus?", "answer": "Yes. Deluxe and sofa-seat coaches are available on the same route — see the bus page." }
+      {
+        "question": "Which bus do we use to Pokhara?",
+        "answer": "Our AC tourist coach with reserved sofa-style seats and a water bottle on boarding — the same daily service on the bus page. We book the seat when we build your tour."
+      }
     ],
     "metaTitle": "Kathmandu Pokhara Chitwan Tour",
     "metaDescription": "6-day Nepal tour linking Kathmandu, the Pokhara tourist bus, and Chitwan."

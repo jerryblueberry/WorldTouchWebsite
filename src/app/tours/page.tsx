@@ -1,18 +1,32 @@
 import { PageHero } from "@/components/site/page-hero";
 import { TourBrowser } from "@/components/tours/tour-browser";
+import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import { tours } from "@/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Nepal Tours",
+  title: "Nepal Sightseeing Tours",
   description:
-    "Kathmandu heritage tours, Pokhara days, and Chitwan wildlife stays arranged by World Touch Tour and Travels.",
+    "Kathmandu sightseeing, Pokhara lake days, and Chitwan wildlife tours — easy to pair with a Himalayan trek or the daily bus.",
   path: "/tours/",
+  keywords: [
+    "Nepal tours",
+    "Kathmandu sightseeing",
+    "Pokhara sightseeing",
+    "Kathmandu heritage tour",
+    "Chitwan tour",
+  ],
 });
 
 export default function ToursPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Home", path: "/" },
+          { name: "Tours", path: "/tours/" },
+        ])}
+      />
       <PageHero
         eyebrow="Tours"
         title="Nepal, without the rush"

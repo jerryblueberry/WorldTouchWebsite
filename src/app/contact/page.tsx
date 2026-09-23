@@ -1,18 +1,31 @@
 import { ContactForm } from "@/components/contact/contact-form";
+import { ContactMap } from "@/components/contact/contact-map";
+import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/data/site";
 
 export const metadata = buildMetadata({
-  title: "Contact",
+  title: "Contact Our Kathmandu Desk",
   description:
-    "Contact World Touch in Kathmandu for treks, tours, and Kathmandu–Pokhara bus seats. WhatsApp, phone, and a Thamel office.",
+    "Write or call World Touch at 1 Thamel Marg, Kathmandu for Himalayan treks, sightseeing tours, and daily Kathmandu–Pokhara bus seats.",
   path: "/contact/",
+  keywords: [
+    "Kathmandu travel agency contact",
+    "book Nepal trek",
+    "Kathmandu Pokhara bus booking",
+  ],
 });
 
 export default function ContactPage() {
   return (
     <div className="pt-24">
-      <section className="mx-auto grid max-w-6xl gap-12 px-4 pb-16 sm:px-6 lg:grid-cols-[0.9fr_1.1fr]">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Home", path: "/" },
+          { name: "Contact", path: "/contact/" },
+        ])}
+      />
+      <section className="mx-auto grid max-w-6xl gap-12 px-4 pb-12 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:pb-16">
         <div>
           <p className="text-xs font-semibold tracking-[0.18em] text-[color:var(--lagoon-ink)] uppercase">
             Contact
@@ -26,25 +39,47 @@ export default function ContactPage() {
           </p>
           <dl className="mt-10 space-y-5 text-sm">
             <div>
-              <dt className="tracking-[0.14em] text-[color:var(--muted-ink)] uppercase">Email</dt>
-              <dd className="mt-1">{siteConfig.email}</dd>
-            </div>
-            <div>
-              <dt className="tracking-[0.14em] text-[color:var(--muted-ink)] uppercase">Phone</dt>
+              <dt className="tracking-[0.14em] text-[color:var(--muted-ink)] uppercase">
+                Email
+              </dt>
               <dd className="mt-1">
-                <a href={siteConfig.phoneHref}>{siteConfig.phone}</a>
-              </dd>
-            </div>
-            <div>
-              <dt className="tracking-[0.14em] text-[color:var(--muted-ink)] uppercase">WhatsApp</dt>
-              <dd className="mt-1">
-                <a href={siteConfig.whatsapp} target="_blank" rel="noreferrer">
-                  Message the desk
+                <a href={`mailto:${siteConfig.email}`} className="hover:underline">
+                  {siteConfig.email}
                 </a>
               </dd>
             </div>
             <div>
-              <dt className="tracking-[0.14em] text-[color:var(--muted-ink)] uppercase">Office</dt>
+              <dt className="tracking-[0.14em] text-[color:var(--muted-ink)] uppercase">
+                Phone
+              </dt>
+              <dd className="mt-1 flex flex-col gap-1">
+                <a href={siteConfig.phoneHref} className="hover:underline">
+                  {siteConfig.phone}
+                </a>
+                <a href={siteConfig.phoneAltHref} className="hover:underline">
+                  {siteConfig.phoneAlt}
+                </a>
+              </dd>
+            </div>
+            <div>
+              <dt className="tracking-[0.14em] text-[color:var(--muted-ink)] uppercase">
+                WhatsApp
+              </dt>
+              <dd className="mt-1">
+                <a
+                  href={siteConfig.whatsapp}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:underline"
+                >
+                  {siteConfig.phone}
+                </a>
+              </dd>
+            </div>
+            <div>
+              <dt className="tracking-[0.14em] text-[color:var(--muted-ink)] uppercase">
+                Office
+              </dt>
               <dd className="mt-1">{siteConfig.addressLine}</dd>
               <dd className="text-[color:var(--muted-ink)]">{siteConfig.hours}</dd>
             </div>
@@ -52,14 +87,7 @@ export default function ContactPage() {
         </div>
         <ContactForm />
       </section>
-      <div className="mx-auto max-w-6xl px-4 pb-16 sm:px-6">
-        <iframe
-          title="World Touch office in Thamel, Kathmandu"
-          src={siteConfig.mapEmbed}
-          className="h-72 w-full rounded-2xl border-0 ring-1 ring-[color:var(--line)]"
-          loading="lazy"
-        />
-      </div>
+      <ContactMap />
     </div>
   );
 }

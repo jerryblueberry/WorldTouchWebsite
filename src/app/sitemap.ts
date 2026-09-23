@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteConfig.url}${path || "/"}`,
       lastModified: now,
       changeFrequency: path === "" ? ("weekly" as const) : ("monthly" as const),
-      priority: path === "" ? 1 : 0.8,
+      priority: path === "" ? 1 : path === "/about/" || path === "/contact/" ? 0.6 : 0.9,
     })
   );
 

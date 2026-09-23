@@ -42,8 +42,6 @@ export function TourBrowser({ tours }: { tours: Tour[] }) {
             image={tour.image}
             imageAlt={tour.imageAlt}
             meta={tour.duration}
-            priceFrom={tour.priceFrom}
-            currency={tour.currency}
             kicker={tour.category}
           />
         ))}
