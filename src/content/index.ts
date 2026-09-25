@@ -1,11 +1,13 @@
 import busJson from "@/content/bus.json";
+import galleryJson from "@/content/gallery.json";
 import treksJson from "@/content/treks.json";
 import toursJson from "@/content/tours.json";
-import type { BusContent, Trek, Tour } from "@/content/types";
+import type { BusContent, GalleryContent, Trek, Tour } from "@/content/types";
 
 export const treks = treksJson as Trek[];
 export const tours = toursJson as Tour[];
 export const bus = busJson as BusContent;
+export const gallery = galleryJson as GalleryContent;
 
 export function getTrek(slug: string) {
   return treks.find((trek) => trek.slug === slug);
@@ -57,6 +59,21 @@ export function getSearchIndex(): SearchHit[] {
       label: "Kathmandu to Pokhara tourist bus",
       href: "/bus/",
       kind: "Bus" as const,
+    },
+    {
+      label: "Kathmandu to Chitwan tourist bus",
+      href: "/bus/",
+      kind: "Bus" as const,
+    },
+    {
+      label: "Vehicle rental Kathmandu",
+      href: "/bus/",
+      kind: "Bus" as const,
+    },
+    {
+      label: "Photo gallery",
+      href: "/gallery/",
+      kind: "Tour" as const,
     },
   ];
 }

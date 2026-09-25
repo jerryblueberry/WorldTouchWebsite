@@ -71,6 +71,25 @@ export type BusGalleryImage = {
   caption: string;
 };
 
+export type BusRoute = {
+  id: string;
+  title: string;
+  tagline: string;
+  highway: string;
+  distance: string;
+  duration: string;
+  notes: string[];
+  departures: BusDeparture[];
+};
+
+export type BusRental = {
+  name: string;
+  summary: string;
+  image: string;
+  imageAlt: string;
+  features: string[];
+};
+
 export type BusContent = {
   slug: string;
   title: string;
@@ -81,16 +100,33 @@ export type BusContent = {
   heroAlt: string;
   overview: string[];
   history: string;
-  route: {
-    highway: string;
-    distance: string;
-    duration: string;
-    notes: string[];
-  };
-  departures: BusDeparture[];
+  routes: BusRoute[];
   classes: BusClass[];
   gallery: BusGalleryImage[];
+  rentals: BusRental[];
   amenities: string[];
   policies: { title: string; detail: string }[];
   faqs: Faq[];
+};
+
+export type GalleryCategoryId = "all" | "bus" | "rental" | "journey";
+
+export type GalleryItem = {
+  id: string;
+  category: Exclude<GalleryCategoryId, "all">;
+  featured: boolean;
+  title: string;
+  image: string;
+  imageAlt: string;
+  caption: string;
+};
+
+export type GalleryContent = {
+  metaTitle: string;
+  metaDescription: string;
+  heroImage: string;
+  heroAlt: string;
+  intro: string[];
+  categories: { id: GalleryCategoryId; label: string }[];
+  items: GalleryItem[];
 };

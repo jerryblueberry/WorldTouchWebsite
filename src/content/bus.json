@@ -1,79 +1,124 @@
 {
-  "slug": "kathmandu-pokhara",
-  "title": "Kathmandu ↔ Pokhara Tourist Bus",
-  "summary": "Daily AC tourist coaches on the Prithvi Highway — scenic Trishuli River and hill country, sofa seats, bottled water, and scheduled stops for breakfast, lunch, and snacks.",
-  "metaTitle": "Kathmandu to Pokhara Tourist Bus | Daily AC Coach",
-  "metaDescription": "Daily Kathmandu–Pokhara AC tourist bus with sofa seats, bottled water, and Trishuli River scenery. Breakfast, lunch, and snack stops on the Prithvi Highway.",
+  "slug": "transport",
+  "title": "Bus & Rental",
+  "summary": "Daily AC tourist buses Kathmandu–Pokhara and Kathmandu–Chitwan, plus private car, jeep, van, microbus, and coach rental from our Thamel desk.",
+  "metaTitle": "Bus & Rental Nepal | Kathmandu Pokhara & Chitwan",
+  "metaDescription": "World Touch daily tourist bus Kathmandu to Pokhara and Chitwan, AC sofa seats, and rental cars, jeeps, vans, microbuses, and coaches with driver.",
   "heroImage": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790186605/userworldtouch_ivrzcp.jpg",
-  "heroAlt": "World Touch tourist coach for the Kathmandu–Pokhara route",
+  "heroAlt": "World Touch tourist coach for Kathmandu, Pokhara, and Chitwan routes",
   "overview": [
-    "World Touch runs morning tourist buses both ways between Kathmandu and Pokhara on the Prithvi Highway. This is the same road most trekkers and lake visitors use — not a local microbus, but a marked tourist coach with reserved seats and a crew that drives it every day.",
-    "The journey is genuinely scenic: the road drops into the Trishuli River gorge, climbs through middle hills and terraced valleys, and — when the sky is clear — opens toward Annapurna and Manaslu foothills before Pokhara. Drivers take the curves carefully; we would rather arrive a little late than rush the gorge.",
-    "We operate AC tourist coaches with wide sofa-style seats and a complimentary water bottle when you board. The day includes planned stops so you can stretch, use a clean restroom, and buy breakfast early on, lunch around the highway towns, and tea or snacks later — meals are at your cost, but the timing is built into the trip.",
-    "Book through our Thamel desk with the same team that handles treks and tours. If you are linking a bus seat to Annapurna or Pokhara plans, tell us your hotel and dates and we will align pickup and drop."
+    "World Touch is not only treks and tours — we run and book the road days that connect them. Daily tourist coaches leave Kathmandu in the morning for Pokhara on the Prithvi Highway and for Chitwan (Sauraha) on the Terai highway, with reserved AC seats, sofa-style reclining chairs, and a water bottle when you board.",
+    "Pokhara is the lake city and trek gateway most guests know: about 200 km, 7–8 hours beside the Trishuli with meal stops. Chitwan is the jungle contrast — roughly 5–6 hours to Sauraha for safari lodges, often booked after a trek or as part of a Kathmandu–Pokhara–Chitwan loop.",
+    "We also arrange rental vehicles with driver from Kathmandu: cars for city and valley days, jeeps for ridge roads and park transfers, vans and microbuses for families and small groups, and full tourist-bus charter when you need a private coach. Tell us dates, passengers, and route — we confirm from the desk, not a random broker on the street.",
+    "Everything is booked through the same Thamel team that handles your trek permits and tour guides, so bus seats, Chitwan transfers, and hire vehicles can sit on one itinerary."
   ],
-  "history": "Most of the day you are beside or above the Trishuli, then on open ridge sections with green hills and, in season, snow peaks on the horizon. It is one of the classic overland days in Nepal — best enjoyed with a window seat, an early start, and realistic expectations for mountain traffic.",
-  "route": {
-    "highway": "Prithvi Highway (Kathmandu–Mugling–Pokhara)",
-    "distance": "About 200 km",
-    "duration": "7–8 hours typical, including meal stops",
-    "notes": [
-      "Scenic stretch along the Trishuli River and through hill country toward Pokhara.",
-      "Clear-weather views of Annapurna-range foothills and wider Himalayan skylines.",
-      "Morning departures only — we do not run overnight buses on this route.",
-      "Scheduled stops for breakfast (early on the road), lunch (Mugling / highway stop), and tea or snacks.",
-      "Mountain weather and road works can add time — crews adjust rather than hurry blind corners.",
-      "Pokhara drop at the lakeside tourist-bus area; Kathmandu drop at Thamel / Sorhakhutte tourist-bus zone, with hotel pickup on morning departures where noted."
-    ]
-  },
-  "departures": [
+  "history": "Whether you are watching the Trishuli gorge open toward Pokhara or dropping from the hills into warm Terai air for Chitwan, these are full travel days — best with a window seat, realistic timing, and a crew that knows the stops.",
+  "routes": [
     {
-      "direction": "Kathmandu → Pokhara",
-      "departs": "7:00",
-      "arrives": "14:30–15:30",
-      "duration": "7–8 hrs",
-      "pickup": "Thamel hotel area, from 6:15"
+      "id": "pokhara",
+      "title": "Kathmandu ↔ Pokhara",
+      "tagline": "Daily AC tourist coach on the Prithvi Highway",
+      "highway": "Prithvi Highway (Kathmandu–Mugling–Pokhara)",
+      "distance": "About 200 km",
+      "duration": "7–8 hours typical, including meal stops",
+      "notes": [
+        "Scenic Trishuli River gorge and middle hills; Annapurna foothills on clear days.",
+        "Scheduled breakfast, lunch, and snack stops — meals paid locally.",
+        "Pokhara drop at lakeside tourist-bus area; Kathmandu pickup in Thamel / Sorhakhutte zone."
+      ],
+      "departures": [
+        {
+          "direction": "Kathmandu → Pokhara",
+          "departs": "7:00",
+          "arrives": "14:30–15:30",
+          "duration": "7–8 hrs",
+          "pickup": "Thamel hotel area, from 6:15"
+        },
+        {
+          "direction": "Kathmandu → Pokhara",
+          "departs": "7:30",
+          "arrives": "15:00–16:00",
+          "duration": "7–8 hrs",
+          "pickup": "Tourist bus park, walk-in"
+        },
+        {
+          "direction": "Kathmandu → Pokhara",
+          "departs": "8:00",
+          "arrives": "15:30–16:30",
+          "duration": "7–8 hrs",
+          "pickup": "Selected coaches, hotel pickup"
+        },
+        {
+          "direction": "Pokhara → Kathmandu",
+          "departs": "7:00",
+          "arrives": "14:30–15:30",
+          "duration": "7–8 hrs",
+          "pickup": "Lakeside tourist bus park"
+        },
+        {
+          "direction": "Pokhara → Kathmandu",
+          "departs": "7:30",
+          "arrives": "15:00–16:00",
+          "duration": "7–8 hrs",
+          "pickup": "Hotel pickup where available"
+        },
+        {
+          "direction": "Pokhara → Kathmandu",
+          "departs": "8:00",
+          "arrives": "15:30–16:30",
+          "duration": "7–8 hrs",
+          "pickup": "Lakeside tourist bus park"
+        }
+      ]
     },
     {
-      "direction": "Kathmandu → Pokhara",
-      "departs": "7:30",
-      "arrives": "15:00–16:00",
-      "duration": "7–8 hrs",
-      "pickup": "Tourist bus park, walk-in"
-    },
-    {
-      "direction": "Kathmandu → Pokhara",
-      "departs": "8:00",
-      "arrives": "15:30–16:30",
-      "duration": "7–8 hrs",
-      "pickup": "Selected coaches, hotel pickup"
-    },
-    {
-      "direction": "Pokhara → Kathmandu",
-      "departs": "7:00",
-      "arrives": "14:30–15:30",
-      "duration": "7–8 hrs",
-      "pickup": "Lakeside tourist bus park"
-    },
-    {
-      "direction": "Pokhara → Kathmandu",
-      "departs": "7:30",
-      "arrives": "15:00–16:00",
-      "duration": "7–8 hrs",
-      "pickup": "Hotel pickup where available"
-    },
-    {
-      "direction": "Pokhara → Kathmandu",
-      "departs": "8:00",
-      "arrives": "15:30–16:30",
-      "duration": "7–8 hrs",
-      "pickup": "Lakeside tourist bus park"
+      "id": "chitwan",
+      "title": "Kathmandu ↔ Chitwan (Sauraha)",
+      "tagline": "Tourist bus to the jungle — safari and lodge transfers",
+      "highway": "Prithvi / East–West Highway via Mugling toward Bharatpur & Sauraha",
+      "distance": "About 160 km to Sauraha area",
+      "duration": "5–6 hours typical, including a meal stop",
+      "notes": [
+        "Descent from Kathmandu hills into the Terai — warm air and rice fields toward Chitwan.",
+        "Ideal before or after a trek; pairs with our Chitwan jungle tour package.",
+        "Drop at Sauraha tourist-bus / lodge area; pickup in Thamel on morning departures."
+      ],
+      "departures": [
+        {
+          "direction": "Kathmandu → Chitwan",
+          "departs": "7:00",
+          "arrives": "12:30–13:30",
+          "duration": "5–6 hrs",
+          "pickup": "Thamel hotel area, from 6:15"
+        },
+        {
+          "direction": "Kathmandu → Chitwan",
+          "departs": "7:30",
+          "arrives": "13:00–14:00",
+          "duration": "5–6 hrs",
+          "pickup": "Tourist bus park, walk-in"
+        },
+        {
+          "direction": "Chitwan → Kathmandu",
+          "departs": "7:00",
+          "arrives": "12:30–13:30",
+          "duration": "5–6 hrs",
+          "pickup": "Sauraha lodge / bus park"
+        },
+        {
+          "direction": "Chitwan → Kathmandu",
+          "departs": "7:30",
+          "arrives": "13:00–14:00",
+          "duration": "5–6 hrs",
+          "pickup": "Sauraha lodge / bus park"
+        }
+      ]
     }
   ],
   "classes": [
     {
       "name": "AC tourist coach",
-      "summary": "Our standard Kathmandu–Pokhara service: one coach type with air-conditioning, sofa-style reclining seats, bottled water on boarding, and reserved seating for international travelers.",
+      "summary": "Our standard intercity service for Pokhara and Chitwan: air-conditioning, sofa-style reclining seats, bottled water on boarding, and reserved seating.",
       "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790187338/496546397_1268679475258917_3468217146576901431_n_xpcfzm.jpg",
       "imageAlt": "Travelers seated in a World Touch AC tourist bus with sofa-style seats",
       "features": [
@@ -82,7 +127,57 @@
         "Complimentary water bottle",
         "Reserved seat",
         "Luggage in the hold",
-        "Breakfast, lunch, and snack stops on the highway"
+        "Highway meal stops"
+      ]
+    }
+  ],
+  "rentals": [
+    {
+      "name": "Car with driver",
+      "summary": "Sedans and compact cars for Kathmandu valley sightseeing, airport runs, and short transfers — ideal for 1–3 guests with light luggage.",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790327814/d6a75ea9-af33-4e3c-a02e-9a29a01b634b_qcknrr.jpg",
+      "imageAlt": "White SUV with driver for private car hire in Nepal",
+      "features": [
+        "Licensed driver",
+        "Air-conditioning when available",
+        "Half-day or full-day hire",
+        "Valley temples and city tours"
+      ]
+    },
+    {
+      "name": "Jeep",
+      "summary": "4WD jeeps for Chitwan lodge transfers, ridge viewpoints, and rougher hill roads where a low car is not the right tool.",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790269780/WhatsApp_Image_2026-09-24_at_16.44.30_pwqhqe.jpg",
+      "imageAlt": "White tourist jeeps with driver for hire in Kathmandu",
+      "features": [
+        "Park and lodge transfers",
+        "Small groups up to 5–6 seats",
+        "Driver familiar with Terai and hill routes",
+        "Custom day charters"
+      ]
+    },
+    {
+      "name": "Van",
+      "summary": "Comfort vans for families and small teams — Pokhara transfers, group airport pickup, or a private valley day without a full coach.",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790327942/WhatsApp_Image_2026-09-24_at_16.44.39_nnkds5.jpg",
+      "imageAlt": "Silver tourist van with driver for group travel in Nepal",
+      "features": [
+        "Typically 6–10 passenger seats",
+        "Luggage space for trek duffels",
+        "AC on selected vehicles",
+        "Multi-day hire on request"
+      ]
+    },
+    {
+      "name": "Tourist bus charter",
+      "summary": "Full-size marked tourist coaches for large groups, agency blocks, or custom loops — same AC sofa-seat standard as our daily departures.",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790328081/WhatsApp_Image_2026-09-24_at_16.45.03_dtsan1.jpg",
+      "imageAlt": "World Touch tourist coach parked for private charter in Kathmandu",
+      "features": [
+        "Entire coach reservation",
+        "Kathmandu–Pokhara–Chitwan circuits",
+        "Event and conference transport",
+        "Itinerary planned with our desk"
       ]
     }
   ],
@@ -104,30 +199,29 @@
     }
   ],
   "amenities": [
-    "Air-conditioned tourist coach — not a local microbus",
+    "Air-conditioned tourist coach on daily Pokhara and Chitwan routes",
     "Sofa-style reclining seats with reserved places",
-    "Complimentary bottled water when you board",
-    "Scheduled stops for breakfast, lunch, and tea or snacks (meals paid locally)",
-    "Luggage hold for trek duffels; small daypack with you in the cabin",
-    "Crew who know the highway stops and announce pickup in English",
-    "Thamel / lakeside support from our Kathmandu desk if the road is slow"
+    "Complimentary bottled water when you board intercity coaches",
+    "Scheduled meal and snack stops on highway routes (meals paid locally)",
+    "Private hire: car, jeep, van, microbus, or full coach with driver",
+    "One Thamel desk for bus seats, rentals, treks, and tours"
   ],
   "policies": [
     {
       "title": "Booking",
-      "detail": "Reserve by WhatsApp, email, or the contact form. Same-day seats are sometimes available before 6:00 if the coach is not full — ask, do not assume."
+      "detail": "Reserve by WhatsApp, email, or the contact form. Same-day bus seats are sometimes available before 6:00 if the coach is not full. Rental vehicles need advance notice for availability."
     },
     {
       "title": "Payment",
-      "detail": "Pay at our Thamel desk, by bank transfer, or in cash on boarding for confirmed bookings. Card payment can be arranged in the office."
+      "detail": "Pay at our Thamel desk, by bank transfer, or in cash on boarding for confirmed bus bookings. Vehicle hire is quoted per day or route — we confirm before you travel."
     },
     {
       "title": "Cancellation",
-      "detail": "Changes are free up to 24 hours before departure. Later cancellations may hold the seat if we cannot resell it."
+      "detail": "Bus seat changes are free up to 24 hours before departure when we can resell the place. Rental cancellations depend on how close to the start date — we state this clearly when you book."
     },
     {
       "title": "Luggage",
-      "detail": "One trek duffel and one cabin bag is the usual allowance. Extra cargo needs a check with us first."
+      "detail": "One trek duffel and one cabin bag is the usual allowance on tourist buses. Charter and van luggage limits depend on vehicle size — ask when you book."
     },
     {
       "title": "ID",
@@ -140,27 +234,27 @@
       "answer": "Plan on 7 to 8 hours, including breakfast and lunch stops. Landslides or traffic near Mugling can make it longer."
     },
     {
-      "question": "Is the route scenic?",
-      "answer": "Yes. You follow the Trishuli River through gorges and hills, with middle-country views and, on clear days, Himalayan peaks toward Pokhara. Window seats are worth asking for when you book."
+      "question": "Do you run a Kathmandu to Chitwan bus?",
+      "answer": "Yes. Morning tourist coaches run toward Sauraha (Chitwan) in about 5 to 6 hours with a meal stop. Book both directions through our desk."
     },
     {
-      "question": "What is included on the bus?",
-      "answer": "Reserved seat, AC cabin, sofa-style seating, and a water bottle on boarding. Breakfast, lunch, and snacks are at highway stops — you pay for your own food and drinks there."
+      "question": "Can I combine Pokhara and Chitwan buses?",
+      "answer": "Many guests bus Kathmandu–Pokhara for a trek or lake stay, then continue to Chitwan by road or book our multi-day tour. We help sequence dates and seats."
     },
     {
-      "question": "Is the tourist bus safe?",
-      "answer": "It is the standard way international travelers do this route. We use established highway coaches, morning departures, and crews who drive this road daily. It is still a mountain highway — we do not oversell it as a flight."
+      "question": "What rental vehicles do you offer?",
+      "answer": "Car, jeep, van, microbus, and full tourist-bus charter with driver — for valley days, park transfers, or private group loops. We quote based on route and season."
     },
     {
-      "question": "Can I book both directions?",
-      "answer": "Yes. Most trek guests book Kathmandu to Pokhara before the trek and Pokhara to Kathmandu after."
+      "question": "What is included on the tourist bus?",
+      "answer": "Reserved seat, AC cabin, sofa-style seating, and a water bottle on boarding. Meals are at highway stops — you pay locally."
     },
     {
       "question": "Do you pick up from my hotel?",
-      "answer": "Thamel hotels are covered on morning Kathmandu departures for many coaches. Outside Thamel, ask us — we will say clearly if you need to reach the bus park."
+      "answer": "Thamel hotels are covered on many morning Kathmandu departures. Outside Thamel, ask us — we will say clearly if you need to reach the bus park."
     },
     {
-      "question": "Is there Wi-Fi?",
+      "question": "Is there Wi-Fi on the bus?",
       "answer": "Do not count on it. Mobile data works on much of the highway and drops in the gorges."
     }
   ]

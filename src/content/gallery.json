@@ -1,0 +1,135 @@
+{
+  "metaTitle": "Photo Gallery | Treks, Buses & Rentals",
+  "metaDescription": "Photos of World Touch tourist buses on Kathmandu–Pokhara and Kathmandu–Chitwan routes, vehicle rentals, and Himalayan treks and tours from our Kathmandu desk.",
+  "heroImage": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790187399/67810534_2452295805050125_353714814800887808_n_utfmlv.jpg",
+  "heroAlt": "World Touch tourist coach on a scenic highway in Nepal",
+  "intro": [
+    "A quick look at how we move guests around Nepal — daily tourist coaches, private hires, and the treks and tours those roads connect to.",
+    "All photos are from World Touch operations and partner routes we book from Thamel. For seat reservations or rental dates, contact our desk — we reply with availability, not a generic brochure."
+  ],
+  "categories": [
+    { "id": "all", "label": "All" },
+    { "id": "bus", "label": "Tourist bus" },
+    { "id": "rental", "label": "Rentals" },
+    { "id": "journey", "label": "Treks & tours" }
+  ],
+  "items": [
+    {
+      "id": "bus-highway-coach",
+      "category": "bus",
+      "featured": true,
+      "title": "Tourist coach on the Prithvi Highway",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790187399/67810534_2452295805050125_353714814800887808_n_utfmlv.jpg",
+      "imageAlt": "World Touch tourist coach on a hillside highway",
+      "caption": "Marked tourist buses between Kathmandu and Pokhara — Trishuli River scenery and hill country."
+    },
+    {
+      "id": "bus-thamel-pickup",
+      "category": "bus",
+      "featured": true,
+      "title": "Thamel pickup coach",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790186605/userworldtouch_ivrzcp.jpg",
+      "imageAlt": "Guest with World Touch tourist bus in Kathmandu",
+      "caption": "Morning departures with hotel-area pickup in Thamel for international travelers."
+    },
+    {
+      "id": "bus-sofa-cabin",
+      "category": "bus",
+      "featured": true,
+      "title": "AC sofa seating",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790187338/496546397_1268679475258917_3468217146576901431_n_xpcfzm.jpg",
+      "imageAlt": "Travelers in sofa seats on a World Touch tourist bus",
+      "caption": "Air-conditioned cabin, reserved seats, and bottled water on boarding."
+    },
+    {
+      "id": "bus-interior-desk",
+      "category": "bus",
+      "featured": true,
+      "title": "On-board comfort",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790187286/503444375_4328631067416580_1278860016652978091_n_z33f3g.jpg",
+      "imageAlt": "World Touch bus interior with branded headrests",
+      "caption": "World Touch headrest covers, cabin fans, and a crew that drives these highways daily."
+    },
+    {
+      "id": "rental-tourist-bus",
+      "category": "rental",
+      "featured": true,
+      "title": "Tourist bus hire",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790187399/67810534_2452295805050125_353714814800887808_n_utfmlv.jpg",
+      "imageAlt": "Tourist coach available for private charter",
+      "caption": "Full coach charter for groups, events, or custom Kathmandu–Pokhara–Chitwan loops."
+    },
+    {
+      "id": "rental-jeep-safari",
+      "category": "rental",
+      "featured": false,
+      "title": "Jeep hire",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790269780/WhatsApp_Image_2026-09-24_at_16.44.30_pwqhqe.jpg",
+      "imageAlt": "White tourist jeeps with driver for hire in Kathmandu",
+      "caption": "Jeeps for Chitwan park transfers, ridge roads, and smaller group charters."
+    },
+    {
+      "id": "journey-ebc-bridge",
+      "category": "journey",
+      "featured": true,
+      "title": "Everest trail",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1764948288/Sushil%20Project/regions/wjdnwi6jxydvwoxxgvbe.jpg",
+      "imageAlt": "Suspension bridge on the Everest trekking route",
+      "caption": "Khumbu treks we arrange from the same Kathmandu desk as your bus seat."
+    },
+    {
+      "id": "journey-ebc-base-camp",
+      "category": "journey",
+      "featured": true,
+      "title": "Everest Base Camp",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790269797/WhatsApp_Image_2026-09-24_at_16.59.15_gn2esy.jpg",
+      "imageAlt": "Trekker at the Everest Base Camp marker rock at 5,364 m",
+      "caption": "Everest Base Camp — the classic Khumbu finish our guides pace for acclimatization."
+    },
+    {
+      "id": "journey-annapurna-ridge",
+      "category": "journey",
+      "featured": false,
+      "title": "Annapurna trekking",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1764913935/Sushil%20Project/regions/d5rgfg2tojtxbhexbsvy.jpg",
+      "imageAlt": "Trekkers on an Annapurna ridgeline",
+      "caption": "Annapurna routes — often paired with our Pokhara bus and lakeside stays."
+    },
+    {
+      "id": "journey-abc-trail",
+      "category": "journey",
+      "featured": false,
+      "title": "Himalayan footpaths",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1760203622/Sushil%20Project/country/gallery/qxq4jgxrlixqyuifqo6z.jpg",
+      "imageAlt": "Trekker on a high mountain trail in Nepal",
+      "caption": "Guided teahouse treks with permits handled before you leave the city."
+    },
+    {
+      "id": "journey-pokhara-lake",
+      "category": "journey",
+      "featured": false,
+      "title": "Pokhara after the bus",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790186996/pokhara_ugibm0.jpg",
+      "imageAlt": "Boats on Phewa Lake, Pokhara",
+      "caption": "Lake days and treks that start after our morning coach from Kathmandu."
+    },
+    {
+      "id": "journey-chitwan",
+      "category": "journey",
+      "featured": false,
+      "title": "Chitwan & the Terai",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1765171868/Sushil%20Project/tours/nbkzlvxar1xtkuegmdhy.jpg",
+      "imageAlt": "Chitwan jungle safari with elephants and rhino habitat",
+      "caption": "Jungle stays reached by our Kathmandu–Chitwan tourist bus or private hire."
+    },
+    {
+      "id": "journey-langtang",
+      "category": "journey",
+      "featured": false,
+      "title": "Langtang valleys",
+      "image": "https://res.cloudinary.com/dgsphdhns/image/upload/v1790186928/photo-1643548947288-fbf86caf414a_hpmiha.avif",
+      "imageAlt": "Snow peaks above a green valley near Langtang",
+      "caption": "Langtang and other trailheads a day road from Kathmandu — no Lukla flight needed."
+    }
+  ]
+}

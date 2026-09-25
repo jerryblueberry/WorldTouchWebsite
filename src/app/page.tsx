@@ -197,7 +197,7 @@ export default function HomePage() {
             Daily bus
           </p>
           <h2 className="mt-2 font-display text-3xl text-[color:var(--ink)] sm:text-4xl">
-            Kathmandu and Pokhara, both mornings
+            Pokhara &amp; Chitwan, every morning
           </h2>
           <p className="mt-4 leading-relaxed text-[color:var(--muted-ink)]">
             {bus.summary}
@@ -210,9 +210,12 @@ export default function HomePage() {
           </Link>
         </div>
         <ul className="grid gap-3 sm:grid-cols-2">
-          {bus.departures.slice(0, 4).map((row) => (
+          {bus.routes
+            .flatMap((route) => route.departures.slice(0, 2))
+            .slice(0, 4)
+            .map((row) => (
             <li
-              key={`${row.direction}-${row.departs}`}
+              key={`${row.direction}-${row.departs}-${row.pickup}`}
               className="rounded-2xl bg-white p-4 ring-1 ring-[color:var(--line)]"
             >
               <p className="text-xs tracking-wide text-[color:var(--lagoon-ink)] uppercase">

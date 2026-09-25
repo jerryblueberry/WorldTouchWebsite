@@ -239,9 +239,11 @@
   isolation: isolate;
   overflow: hidden;
   display: inline-flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   gap: 0.35rem;
+  white-space: nowrap;
   border-radius: 999px;
   background: var(--lagoon);
   color: var(--ink);

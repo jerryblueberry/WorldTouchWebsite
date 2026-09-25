@@ -8,7 +8,8 @@ const footerLinks = [
     links: [
       { href: "/treks/", label: "Treks" },
       { href: "/tours/", label: "Tours" },
-      { href: "/bus/", label: "KTM–Pokhara bus" },
+      { href: "/bus/", label: "Bus & Rental" },
+      { href: "/gallery/", label: "Gallery" },
     ],
   },
   {
