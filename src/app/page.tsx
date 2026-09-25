@@ -27,8 +27,8 @@ const paths = [
     title: "Treks",
     body: "Everest, Annapurna, Langtang, and quieter trails — guided from Kathmandu.",
     image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
-    imageAlt: "High Himalayan ridge in Nepal",
+      "https://res.cloudinary.com/dgsphdhns/image/upload/v1790269797/WhatsApp_Image_2026-09-24_at_16.59.15_gn2esy.jpg",
+    imageAlt: "Trekker at the Everest Base Camp marker at 5,364 m",
   },
   {
     href: "/tours/",
@@ -42,8 +42,8 @@ const paths = [
   {
     href: "/bus/",
     index: "03",
-    title: "KTM ↔ Pokhara bus",
-    body: "Daily tourist coaches both ways, with reserved seats and a known pickup.",
+    title: "Bus & Rental",
+    body: "Daily Kathmandu–Pokhara and Kathmandu–Chitwan tourist coaches, plus private car, jeep, and van hire.",
     image: bus.heroImage,
     imageAlt: bus.heroAlt,
   },
@@ -87,7 +87,7 @@ export default function HomePage() {
               Ways to travel
             </p>
             <h2 className="mt-2 max-w-xl font-display text-3xl tracking-tight text-[color:var(--ink)] sm:text-4xl">
-              Treks, tours, and the road to Pokhara
+              Treks, tours, and coaches to Pokhara &amp; Chitwan
             </h2>
           </RevealOnScroll>
           <div className="mt-8 grid gap-5 sm:mt-10 md:grid-cols-3 md:gap-6">
